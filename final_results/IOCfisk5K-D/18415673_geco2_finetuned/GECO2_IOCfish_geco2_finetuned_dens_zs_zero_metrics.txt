@@ -1,0 +1,183 @@
+Model path: /d/hpc/home/er52565/GECO2/results/18415673_geco2_finetuned/GECO2_IOCfish_geco2_finetuned_dens_zs_zero_200.pth
+Created: 2026-08-15 13:25:22
+Wandb run: https://wandb.ai/radovicevic-erik1-/GECO2-D/runs/k07f8bq8
+
+ Epoch   TrainLoss   ValLoss   TrainMainLoss   ValMainLoss   TrainMAE   ValMAE   ValRMSE   ValNAE   ValIoU   ValGIoU   ValF1         LR   EpochTime  Best
+-------------------------------------------------------------------------------------------------------------------------
+  ~~~ zs-prototypes deviation @epoch 1: total_L2=7.0055e-02  (init_norm=1.361e+00, l1=5.203e-02, l2=3.661e-02, src=2.934e-02)
+     1   22926.273  3884.491           1.933         1.785     90.979   96.052    206.92    2.047    0.593     0.572   0.032   5.75e-06       433.2  *
+  ~~~ zs-prototypes deviation @epoch 2: total_L2=1.1918e-01  (init_norm=1.361e+00, l1=7.429e-02, l2=6.533e-02, src=6.646e-02)
+  --- PLATEAU 1/10 at epoch 2: neither Val select (109.90, best 96.05) nor Val NAE (3.703, best 2.047) improved.
+     2   16923.312  3723.401           1.641         1.536     97.536  109.896    188.40    3.703    0.640     0.625   0.214   1.05e-05       406.9  
+  ~~~ zs-prototypes deviation @epoch 3: total_L2=1.4760e-01  (init_norm=1.361e+00, l1=6.913e-02, l2=8.499e-02, src=9.892e-02)
+     3   13976.479  3577.383           1.476         1.388     82.757   75.484    157.51    1.844    0.659     0.645   0.314   1.52e-05       414.5  *
+  ~~~ zs-prototypes deviation @epoch 4: total_L2=1.8370e-01  (init_norm=1.361e+00, l1=7.011e-02, l2=1.160e-01, src=1.240e-01)
+     4   12887.517  3542.722           1.417         1.342     67.751   65.680    156.90    1.042    0.671     0.659   0.355   2.00e-05       405.2  *
+  ~~~ zs-prototypes deviation @epoch 5: total_L2=2.3972e-01  (init_norm=1.361e+00, l1=7.894e-02, l2=1.464e-01, src=1.726e-01)
+     5   11952.041  3509.919           1.372         1.322     61.157   65.046    143.01    1.243    0.675     0.663   0.371   2.00e-05       398.8  *
+  ~~~ zs-prototypes deviation @epoch 6: total_L2=2.7242e-01  (init_norm=1.361e+00, l1=8.933e-02, l2=1.732e-01, src=1.904e-01)
+     6   11182.471  3597.215           1.352         1.298     56.271   63.492    134.48    1.200    0.681     0.669   0.379   2.00e-05       400.6  *
+  ~~~ zs-prototypes deviation @epoch 7: total_L2=2.9697e-01  (init_norm=1.361e+00, l1=9.864e-02, l2=1.928e-01, src=2.032e-01)
+     7   10816.419  3512.588           1.348         1.284     53.628   53.248    131.60    0.817    0.683     0.672   0.399   2.00e-05       404.8  *
+  ~~~ zs-prototypes deviation @epoch 8: total_L2=3.1764e-01  (init_norm=1.361e+00, l1=1.133e-01, l2=2.093e-01, src=2.104e-01)
+  --- PLATEAU 1/10 at epoch 8: neither Val select (66.05, best 53.25) nor Val NAE (1.448, best 0.817) improved.
+     8   10346.776  3557.340           1.331         1.298     53.611   66.050    130.28    1.448    0.677     0.666   0.393   2.00e-05       416.6  
+  ~~~ zs-prototypes deviation @epoch 9: total_L2=3.4714e-01  (init_norm=1.361e+00, l1=1.308e-01, l2=2.298e-01, src=2.249e-01)
+     9   10282.477  3506.768           1.327         1.283     51.059   50.358    149.53    0.559    0.694     0.684   0.433   2.00e-05       420.9  *
+  ~~~ zs-prototypes deviation @epoch 10: total_L2=3.7207e-01  (init_norm=1.361e+00, l1=1.404e-01, l2=2.572e-01, src=2.292e-01)
+  --- PLATEAU 1/10 at epoch 10: neither Val select (50.81, best 50.36) nor Val NAE (0.950, best 0.559) improved.
+    10   10065.704  3544.555           1.321         1.285     50.372   50.810    128.07    0.950    0.678     0.668   0.416   2.00e-05       424.9  
+  ~~~ zs-prototypes deviation @epoch 11: total_L2=3.9084e-01  (init_norm=1.361e+00, l1=1.596e-01, l2=2.593e-01, src=2.450e-01)
+    11    9648.066  3565.199           1.320         1.294     49.367   49.832    128.83    0.722    0.689     0.678   0.422   2.00e-05       412.2  *
+  ~~~ zs-prototypes deviation @epoch 12: total_L2=4.0583e-01  (init_norm=1.361e+00, l1=1.650e-01, l2=2.730e-01, src=2.509e-01)
+  --- PLATEAU 1/10 at epoch 12: neither Val select (51.97, best 49.83) nor Val NAE (0.954, best 0.559) improved.
+    12    9434.300  3562.657           1.301         1.273     44.677   51.968    119.77    0.954    0.679     0.669   0.421   2.00e-05       414.2  
+  ~~~ zs-prototypes deviation @epoch 13: total_L2=4.2666e-01  (init_norm=1.361e+00, l1=1.823e-01, l2=2.908e-01, src=2.534e-01)
+  --- PLATEAU 2/10 at epoch 13: neither Val select (50.05, best 49.83) nor Val NAE (1.043, best 0.559) improved.
+    13    9427.993  3558.243           1.295         1.253     44.652   50.054    122.05    1.043    0.686     0.675   0.434   2.00e-05       408.6  
+  ~~~ zs-prototypes deviation @epoch 14: total_L2=4.3393e-01  (init_norm=1.361e+00, l1=1.854e-01, l2=2.905e-01, src=2.637e-01)
+  --- PLATEAU 3/10 at epoch 14: neither Val select (52.25, best 49.83) nor Val NAE (1.198, best 0.559) improved.
+    14    9320.916  3556.188           1.291         1.255     42.601   52.248    112.53    1.198    0.691     0.681   0.424   2.00e-05       410.8  
+  ~~~ zs-prototypes deviation @epoch 15: total_L2=4.5048e-01  (init_norm=1.361e+00, l1=2.009e-01, l2=3.034e-01, src=2.656e-01)
+    15    9302.181  3509.540           1.284         1.258     44.190   46.246    114.19    0.746    0.693     0.683   0.437   2.00e-05       410.7  *
+  ~~~ zs-prototypes deviation @epoch 16: total_L2=4.6242e-01  (init_norm=1.361e+00, l1=2.136e-01, l2=3.133e-01, src=2.646e-01)
+  --- PLATEAU 1/10 at epoch 16: neither Val select (47.39, best 46.25) nor Val NAE (0.696, best 0.559) improved.
+    16    9094.585  3572.426           1.283         1.258     43.859   47.386    119.67    0.696    0.687     0.676   0.439   2.00e-05       418.6  
+  ~~~ zs-prototypes deviation @epoch 17: total_L2=4.6905e-01  (init_norm=1.361e+00, l1=2.195e-01, l2=3.173e-01, src=2.667e-01)
+  --- PLATEAU 2/10 at epoch 17: neither Val select (47.08, best 46.25) nor Val NAE (0.606, best 0.559) improved.
+    17    9003.903  3520.732           1.280         1.282     43.529   47.076    138.31    0.606    0.692     0.681   0.450   2.00e-05       413.7  
+  ~~~ zs-prototypes deviation @epoch 18: total_L2=4.8920e-01  (init_norm=1.361e+00, l1=2.373e-01, l2=3.315e-01, src=2.704e-01)
+  --- PLATEAU 3/10 at epoch 18: neither Val select (52.18, best 46.25) nor Val NAE (1.002, best 0.559) improved.
+    18    8716.032  3604.911           1.275         1.248     41.222   52.180    112.77    1.002    0.692     0.681   0.437   2.00e-05       414.6  
+  ~~~ zs-prototypes deviation @epoch 19: total_L2=5.0268e-01  (init_norm=1.361e+00, l1=2.352e-01, l2=3.463e-01, src=2.783e-01)
+    19    8828.060  3502.772           1.273         1.224     42.668   45.028    117.68    0.852    0.695     0.685   0.453   2.00e-05       409.0  *
+  ~~~ zs-prototypes deviation @epoch 20: total_L2=5.1342e-01  (init_norm=1.361e+00, l1=2.549e-01, l2=3.473e-01, src=2.792e-01)
+  --- PLATEAU 1/10 at epoch 20: neither Val select (45.96, best 45.03) nor Val NAE (0.889, best 0.559) improved.
+    20    8610.054  3503.338           1.265         1.240     40.992   45.956    114.99    0.889    0.696     0.687   0.450   2.00e-05       431.5  
+  ~~~ zs-prototypes deviation @epoch 21: total_L2=5.2268e-01  (init_norm=1.361e+00, l1=2.544e-01, l2=3.551e-01, src=2.870e-01)
+  --- PLATEAU 2/10 at epoch 21: neither Val select (47.14, best 45.03) nor Val NAE (0.877, best 0.559) improved.
+    21    8603.790  3476.802           1.262         1.250     38.820   47.138    113.93    0.877    0.690     0.680   0.444   2.00e-05       424.0  
+  ~~~ zs-prototypes deviation @epoch 22: total_L2=5.3043e-01  (init_norm=1.361e+00, l1=2.626e-01, l2=3.579e-01, src=2.903e-01)
+  --- PLATEAU 3/10 at epoch 22: neither Val select (45.16, best 45.03) nor Val NAE (0.874, best 0.559) improved.
+    22    8404.171  3507.616           1.260         1.226     38.340   45.160    111.30    0.874    0.696     0.686   0.453   2.00e-05       419.1  
+  ~~~ zs-prototypes deviation @epoch 23: total_L2=5.4827e-01  (init_norm=1.361e+00, l1=2.748e-01, l2=3.666e-01, src=3.011e-01)
+    23    8331.295  3530.140           1.251         1.239     39.245   41.930    115.68    0.756    0.696     0.685   0.464   2.00e-05       414.3  *
+  ~~~ zs-prototypes deviation @epoch 24: total_L2=5.5807e-01  (init_norm=1.361e+00, l1=2.708e-01, l2=3.767e-01, src=3.102e-01)
+    24    8268.733  3485.493           1.246         1.231     38.931   41.870    113.04    0.752    0.698     0.688   0.461   2.00e-05       413.0  *
+  ~~~ zs-prototypes deviation @epoch 25: total_L2=5.5667e-01  (init_norm=1.361e+00, l1=2.731e-01, l2=3.800e-01, src=3.016e-01)
+  --- PLATEAU 1/10 at epoch 25: neither Val select (43.81, best 41.87) nor Val NAE (0.875, best 0.559) improved.
+    25    8203.232  3536.371           1.249         1.234     38.835   43.806    107.37    0.875    0.696     0.686   0.457   2.00e-05       411.2  
+  ~~~ zs-prototypes deviation @epoch 26: total_L2=5.5828e-01  (init_norm=1.361e+00, l1=2.795e-01, l2=3.720e-01, src=3.084e-01)
+  --- PLATEAU 2/10 at epoch 26: neither Val select (42.59, best 41.87) nor Val NAE (0.668, best 0.559) improved.
+    26    8055.779  3471.954           1.246         1.230     37.734   42.590    115.13    0.668    0.696     0.686   0.463   2.00e-05       408.9  
+  ~~~ zs-prototypes deviation @epoch 27: total_L2=5.7408e-01  (init_norm=1.361e+00, l1=2.952e-01, l2=3.875e-01, src=3.038e-01)
+  --- PLATEAU 3/10 at epoch 27: neither Val select (44.54, best 41.87) nor Val NAE (0.682, best 0.559) improved.
+    27    8242.315  3506.774           1.247         1.235     38.876   44.540    115.11    0.682    0.697     0.687   0.457   2.00e-05       417.1  
+  ~~~ zs-prototypes deviation @epoch 28: total_L2=5.9723e-01  (init_norm=1.361e+00, l1=3.045e-01, l2=4.022e-01, src=3.197e-01)
+    28    8068.005  3471.933           1.238         1.226     40.008   41.500    116.03    0.558    0.694     0.684   0.467   2.00e-05       415.5  *
+  ~~~ zs-prototypes deviation @epoch 29: total_L2=6.0103e-01  (init_norm=1.361e+00, l1=3.229e-01, l2=4.012e-01, src=3.098e-01)
+  --- PLATEAU 1/10 at epoch 29: neither Val select (45.05, best 41.50) nor Val NAE (0.824, best 0.558) improved.
+    29    7927.470  3480.413           1.234         1.234     37.027   45.050    113.75    0.824    0.696     0.686   0.444   2.00e-05       401.4  
+  ~~~ zs-prototypes deviation @epoch 30: total_L2=6.0420e-01  (init_norm=1.361e+00, l1=3.119e-01, l2=3.994e-01, src=3.290e-01)
+  --- PLATEAU 2/10 at epoch 30: neither Val select (42.31, best 41.50) nor Val NAE (0.696, best 0.558) improved.
+    30    7933.004  3483.705           1.230         1.217     38.051   42.308    111.38    0.696    0.697     0.687   0.466   2.00e-05       407.9  
+  ~~~ zs-prototypes deviation @epoch 31: total_L2=6.0691e-01  (init_norm=1.361e+00, l1=3.190e-01, l2=4.071e-01, src=3.175e-01)
+  --- PLATEAU 3/10 at epoch 31: neither Val select (43.71, best 41.50) nor Val NAE (0.842, best 0.558) improved.
+    31    8000.934  3436.029           1.229         1.208     37.684   43.708    107.37    0.842    0.701     0.691   0.460   2.00e-05       413.1  
+  ~~~ zs-prototypes deviation @epoch 32: total_L2=6.1698e-01  (init_norm=1.361e+00, l1=3.211e-01, l2=4.072e-01, src=3.342e-01)
+    32    7915.436  3482.932           1.225         1.221     36.459   41.262    110.37    0.765    0.699     0.690   0.464   2.00e-05       423.4  *
+  ~~~ zs-prototypes deviation @epoch 33: total_L2=6.2470e-01  (init_norm=1.361e+00, l1=3.236e-01, l2=4.115e-01, src=3.408e-01)
+  --- PLATEAU 1/10 at epoch 33: neither Val select (42.85, best 41.26) nor Val NAE (0.761, best 0.558) improved.
+    33    7786.728  3507.649           1.219         1.218     36.305   42.850    108.08    0.761    0.697     0.687   0.455   2.00e-05       418.2  
+  ~~~ zs-prototypes deviation @epoch 34: total_L2=6.3249e-01  (init_norm=1.361e+00, l1=3.326e-01, l2=4.176e-01, src=3.391e-01)
+  --- PLATEAU 2/10 at epoch 34: neither Val select (44.33, best 41.26) nor Val NAE (0.811, best 0.558) improved.
+    34    7732.292  3425.004           1.222         1.210     38.945   44.326    116.94    0.811    0.699     0.689   0.460   2.00e-05       424.0  
+  ~~~ zs-prototypes deviation @epoch 35: total_L2=6.4679e-01  (init_norm=1.361e+00, l1=3.385e-01, l2=4.278e-01, src=3.476e-01)
+  --- PLATEAU 3/10 at epoch 35: neither Val select (44.73, best 41.26) nor Val NAE (0.754, best 0.558) improved.
+    35    7630.345  3480.490           1.222         1.209     39.127   44.726    110.34    0.754    0.697     0.687   0.460   2.00e-05       411.5  
+  ~~~ zs-prototypes deviation @epoch 36: total_L2=6.4939e-01  (init_norm=1.361e+00, l1=3.352e-01, l2=4.269e-01, src=3.565e-01)
+  --- PLATEAU 4/10 at epoch 36: neither Val select (41.59, best 41.26) nor Val NAE (0.670, best 0.558) improved.
+    36    7689.995  3438.346           1.219         1.215     37.879   41.594    115.28    0.670    0.699     0.689   0.472   1.00e-05       417.4  
+  ~~~ zs-prototypes deviation @epoch 37: total_L2=6.5349e-01  (init_norm=1.361e+00, l1=3.438e-01, l2=4.289e-01, src=3.535e-01)
+    37    7150.087  3492.239           1.204         1.201     35.281   41.232    105.73    0.776    0.701     0.691   0.468   1.00e-05       432.3  *
+  ~~~ zs-prototypes deviation @epoch 38: total_L2=6.5271e-01  (init_norm=1.361e+00, l1=3.335e-01, l2=4.302e-01, src=3.601e-01)
+    38    7125.375  3457.032           1.209         1.204     36.726   40.700    110.07    0.650    0.701     0.691   0.473   1.00e-05       410.8  *
+  ~~~ zs-prototypes deviation @epoch 39: total_L2=6.4986e-01  (init_norm=1.361e+00, l1=3.300e-01, l2=4.250e-01, src=3.644e-01)
+  --- PLATEAU 1/10 at epoch 39: neither Val select (43.99, best 40.70) nor Val NAE (0.804, best 0.558) improved.
+    39    7125.499  3415.607           1.207         1.213     36.132   43.992    109.59    0.804    0.700     0.689   0.461   1.00e-05       427.2  
+  ~~~ zs-prototypes deviation @epoch 40: total_L2=6.5206e-01  (init_norm=1.361e+00, l1=3.304e-01, l2=4.322e-01, src=3.594e-01)
+  --- PLATEAU 2/10 at epoch 40: neither Val select (41.04, best 40.70) nor Val NAE (0.823, best 0.558) improved.
+    40    7129.540  3455.139           1.214         1.204     37.378   41.040    109.11    0.823    0.701     0.691   0.470   1.00e-05       424.9  
+  ~~~ zs-prototypes deviation @epoch 41: total_L2=6.5193e-01  (init_norm=1.361e+00, l1=3.309e-01, l2=4.272e-01, src=3.647e-01)
+  --- PLATEAU 3/10 at epoch 41: neither Val select (42.77, best 40.70) nor Val NAE (0.792, best 0.558) improved.
+    41    7052.744  3440.007           1.207         1.209     35.667   42.770    111.02    0.792    0.700     0.690   0.464   1.00e-05       419.0  
+  ~~~ zs-prototypes deviation @epoch 42: total_L2=6.5505e-01  (init_norm=1.361e+00, l1=3.316e-01, l2=4.347e-01, src=3.608e-01)
+  --- PLATEAU 4/10 at epoch 42: neither Val select (40.99, best 40.70) nor Val NAE (0.705, best 0.558) improved.
+    42    7053.962  3405.332           1.202         1.201     36.255   40.994    107.15    0.705    0.699     0.689   0.469   5.00e-06       432.7  
+  ~~~ zs-prototypes deviation @epoch 43: total_L2=6.5183e-01  (init_norm=1.361e+00, l1=3.263e-01, l2=4.303e-01, src=3.650e-01)
+  --- PLATEAU 5/10 at epoch 43: neither Val select (41.23, best 40.70) nor Val NAE (0.764, best 0.558) improved.
+    43    6788.081  3429.790           1.203         1.200     35.795   41.226    107.31    0.764    0.699     0.689   0.469   5.00e-06       422.7  
+  ~~~ zs-prototypes deviation @epoch 44: total_L2=6.4981e-01  (init_norm=1.361e+00, l1=3.206e-01, l2=4.305e-01, src=3.663e-01)
+  --- PLATEAU 6/10 at epoch 44: neither Val select (41.99, best 40.70) nor Val NAE (0.860, best 0.558) improved.
+    44    6821.935  3403.331           1.205         1.205     36.550   41.986    104.89    0.860    0.699     0.689   0.466   5.00e-06       420.1  
+  ~~~ zs-prototypes deviation @epoch 45: total_L2=6.4873e-01  (init_norm=1.361e+00, l1=3.213e-01, l2=4.267e-01, src=3.682e-01)
+  --- PLATEAU 7/10 at epoch 45: neither Val select (40.72, best 40.70) nor Val NAE (0.744, best 0.558) improved.
+    45    6741.620  3422.149           1.202         1.205     36.429   40.722    107.71    0.744    0.700     0.690   0.474   5.00e-06       424.9  
+  ~~~ zs-prototypes deviation @epoch 46: total_L2=6.4948e-01  (init_norm=1.361e+00, l1=3.214e-01, l2=4.275e-01, src=3.685e-01)
+  --- PLATEAU 8/10 at epoch 46: neither Val select (42.64, best 40.70) nor Val NAE (0.799, best 0.558) improved.
+    46    6704.948  3421.413           1.199         1.198     35.984   42.636    103.59    0.799    0.701     0.691   0.467   2.50e-06       419.1  
+  ~~~ zs-prototypes deviation @epoch 47: total_L2=6.4748e-01  (init_norm=1.361e+00, l1=3.180e-01, l2=4.276e-01, src=3.678e-01)
+  --- PLATEAU 9/10 at epoch 47: neither Val select (41.04, best 40.70) nor Val NAE (0.772, best 0.558) improved.
+    47    6588.135  3405.293           1.194         1.197     35.738   41.044    107.35    0.772    0.702     0.692   0.473   2.50e-06       418.9  
+  ~~~ zs-prototypes deviation @epoch 48: total_L2=6.4436e-01  (init_norm=1.361e+00, l1=3.152e-01, l2=4.265e-01, src=3.659e-01)
+    48    6569.882  3405.551           1.199         1.211     36.038   40.608    107.41    0.695    0.701     0.691   0.471   2.50e-06       416.9  *
+  ~~~ zs-prototypes deviation @epoch 49: total_L2=6.4712e-01  (init_norm=1.361e+00, l1=3.149e-01, l2=4.288e-01, src=3.684e-01)
+    49    6633.521  3398.496           1.200         1.196     36.133   40.062    106.54    0.760    0.701     0.691   0.474   2.50e-06       413.5  *
+  ~~~ zs-prototypes deviation @epoch 50: total_L2=6.4787e-01  (init_norm=1.361e+00, l1=3.142e-01, l2=4.306e-01, src=3.682e-01)
+  --- PLATEAU 1/10 at epoch 50: neither Val select (41.90, best 40.06) nor Val NAE (0.787, best 0.558) improved.
+    50    6559.605  3396.734           1.192         1.202     36.303   41.904    107.71    0.787    0.701     0.691   0.471   2.50e-06       421.0  
+  ~~~ zs-prototypes deviation @epoch 51: total_L2=6.4662e-01  (init_norm=1.361e+00, l1=3.125e-01, l2=4.303e-01, src=3.679e-01)
+  --- PLATEAU 2/10 at epoch 51: neither Val select (41.58, best 40.06) nor Val NAE (0.820, best 0.558) improved.
+    51    6630.314  3402.672           1.200         1.206     35.928   41.584    106.16    0.820    0.701     0.691   0.470   2.50e-06       418.7  
+  ~~~ zs-prototypes deviation @epoch 52: total_L2=6.4698e-01  (init_norm=1.361e+00, l1=3.129e-01, l2=4.297e-01, src=3.688e-01)
+  --- PLATEAU 3/10 at epoch 52: neither Val select (42.08, best 40.06) nor Val NAE (0.855, best 0.558) improved.
+    52    6531.840  3397.955           1.200         1.207     36.387   42.084    104.19    0.855    0.701     0.691   0.469   2.50e-06       416.4  
+  ~~~ zs-prototypes deviation @epoch 53: total_L2=6.4668e-01  (init_norm=1.361e+00, l1=3.124e-01, l2=4.294e-01, src=3.691e-01)
+  --- PLATEAU 4/10 at epoch 53: neither Val select (42.02, best 40.06) nor Val NAE (0.800, best 0.558) improved.
+    53    6568.402  3400.233           1.193         1.200     36.512   42.024    107.02    0.800    0.701     0.691   0.471   1.25e-06       423.7  
+  ~~~ zs-prototypes deviation @epoch 54: total_L2=6.4561e-01  (init_norm=1.361e+00, l1=3.096e-01, l2=4.296e-01, src=3.694e-01)
+  --- PLATEAU 5/10 at epoch 54: neither Val select (41.86, best 40.06) nor Val NAE (0.805, best 0.558) improved.
+    54    6406.003  3399.550           1.193         1.202     36.141   41.860    106.88    0.805    0.701     0.691   0.472   1.25e-06       417.2  
+  ~~~ zs-prototypes deviation @epoch 55: total_L2=6.4588e-01  (init_norm=1.361e+00, l1=3.094e-01, l2=4.292e-01, src=3.704e-01)
+  --- PLATEAU 6/10 at epoch 55: neither Val select (42.36, best 40.06) nor Val NAE (0.812, best 0.558) improved.
+    55    6567.023  3391.090           1.202         1.205     36.836   42.356    105.54    0.812    0.700     0.690   0.469   1.25e-06       424.1  
+  ~~~ zs-prototypes deviation @epoch 56: total_L2=6.4484e-01  (init_norm=1.361e+00, l1=3.096e-01, l2=4.287e-01, src=3.690e-01)
+  --- PLATEAU 7/10 at epoch 56: neither Val select (42.77, best 40.06) nor Val NAE (0.834, best 0.558) improved.
+    56    6414.943  3382.731           1.195         1.208     36.790   42.774    106.31    0.834    0.700     0.690   0.469   1.25e-06       422.6  
+  ~~~ zs-prototypes deviation @epoch 57: total_L2=6.4431e-01  (init_norm=1.361e+00, l1=3.095e-01, l2=4.279e-01, src=3.691e-01)
+  --- PLATEAU 8/10 at epoch 57: neither Val select (42.23, best 40.06) nor Val NAE (0.819, best 0.558) improved.
+    57    6419.727  3374.896           1.197         1.208     37.147   42.228    107.00    0.819    0.701     0.691   0.471   6.25e-07       424.6  
+  ~~~ zs-prototypes deviation @epoch 58: total_L2=6.4504e-01  (init_norm=1.361e+00, l1=3.091e-01, l2=4.289e-01, src=3.696e-01)
+  --- PLATEAU 9/10 at epoch 58: neither Val select (42.34, best 40.06) nor Val NAE (0.823, best 0.558) improved.
+    58    6481.170  3376.546           1.200         1.206     37.050   42.344    106.58    0.823    0.701     0.691   0.470   6.25e-07       419.6  
+  ~~~ zs-prototypes deviation @epoch 59: total_L2=6.4469e-01  (init_norm=1.361e+00, l1=3.088e-01, l2=4.285e-01, src=3.697e-01)
+  --- PLATEAU 10/10 at epoch 59: neither Val select (42.52, best 40.06) nor Val NAE (0.812, best 0.558) improved.
+    59    6363.941  3374.156           1.196         1.206     36.743   42.522    106.65    0.812    0.701     0.691   0.470   6.25e-07       431.7  
+
+Best model - epoch 49:
+  Train loss:      6633.521
+  Val loss:        3398.496
+  Train main loss: 1.200
+  Val main loss:   1.196
+  Train MAE:       36.133
+  Val MAE:         40.062
+  Val RMSE:        106.54
+  Val NAE:         0.760
+  Val IoU@.5:      0.7011
+  Val GIoU@.5:     0.6912
+  Val Precision@.5: 0.4757
+  Val Recall@.5:    0.4728
+  Val F1@.5:        0.4742
+  Epoch time:      413.5s
+
+Checkpoint saved at: /d/hpc/home/er52565/GECO2/results/18415673_geco2_finetuned/GECO2_IOCfish_geco2_finetuned_dens_zs_zero_200.pth

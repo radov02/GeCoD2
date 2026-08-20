@@ -1,0 +1,51 @@
+Model path: /d/hpc/home/er52565/GECO2/results_MCAC/17564520/GECO2_MCAC_geco2_finetuned_dens_aw10_few_200.pth
+Created: 2026-07-17 14:46:28
+Wandb run: https://wandb.ai/radovicevic-erik1-/GECO2-D/runs/rxet5vcg
+
+ Epoch   TrainLoss   ValLoss   TrainMainLoss   ValMainLoss   TrainMAE   ValMAE   ValRMSE   ValNAE   ValIoU   ValGIoU   ValF1         LR   EpochTime  Best
+-------------------------------------------------------------------------------------------------------------------------
+     1   25469.146  72576.180           0.914         1.080     33.750   16.931     29.61    1.261    0.771     0.765   0.677   1.44e-06       747.2  *
+     2   21824.887  68544.625           0.907         1.034     29.150   14.288     25.90    1.023    0.774     0.768   0.701   2.63e-06       695.3  *
+     3   20922.773  60449.023           0.918         1.050     28.062   13.888     25.19    0.990    0.774     0.768   0.704   3.81e-06       702.4  *
+  --- PLATEAU 1/12 at epoch 4: neither Val select (15.66, best 13.89) nor Val NAE (1.105, best 0.990) improved.
+     4   21266.871  53733.832           0.983         1.111     27.696   15.660     28.03    1.105    0.772     0.766   0.696   5.00e-06       701.7  
+  --- PLATEAU 2/12 at epoch 5: neither Val select (15.30, best 13.89) nor Val NAE (1.054, best 0.990) improved.
+     5   20497.459  47300.141           1.024         1.116     28.008   15.296     27.40    1.054    0.770     0.763   0.695   5.00e-06       757.1  
+  --- PLATEAU 3/12 at epoch 6: neither Val select (16.52, best 13.89) nor Val NAE (1.150, best 0.990) improved.
+     6   20478.881  44186.059           1.059         1.124     29.337   16.518     29.93    1.150    0.767     0.760   0.688   5.00e-06       718.4  
+  --- PLATEAU 4/12 at epoch 7: neither Val select (20.59, best 13.89) nor Val NAE (1.385, best 0.990) improved.
+     7   19906.062  44199.570           1.057         1.139     29.823   20.592     36.58    1.385    0.765     0.758   0.672   5.00e-06       690.9  
+  --- PLATEAU 5/12 at epoch 8: neither Val select (18.14, best 13.89) nor Val NAE (1.274, best 0.990) improved.
+     8   19487.006  42383.672           1.055         1.129     29.255   18.137     32.40    1.274    0.768     0.761   0.682   5.00e-06       700.9  
+  --- PLATEAU 6/12 at epoch 9: neither Val select (19.51, best 13.89) nor Val NAE (1.313, best 0.990) improved.
+     9   19349.576  41652.598           1.057         1.124     28.915   19.507     35.66    1.313    0.767     0.760   0.677   5.00e-06       691.9  
+  --- PLATEAU 7/12 at epoch 10: neither Val select (18.94, best 13.89) nor Val NAE (1.308, best 0.990) improved.
+    10   19807.457  41905.180           1.056         1.122     29.083   18.940     34.25    1.308    0.768     0.761   0.682   5.00e-06       702.6  
+  --- PLATEAU 8/12 at epoch 11: neither Val select (20.50, best 13.89) nor Val NAE (1.344, best 0.990) improved.
+    11   18934.805  41828.234           1.048         1.125     27.364   20.502     37.00    1.344    0.766     0.759   0.674   5.00e-06       706.4  
+  --- PLATEAU 9/12 at epoch 12: neither Val select (18.78, best 13.89) nor Val NAE (1.278, best 0.990) improved.
+    12   18730.783  42856.945           1.040         1.122     28.104   18.780     33.81    1.278    0.767     0.760   0.679   5.00e-06       693.3  
+  --- PLATEAU 10/12 at epoch 13: neither Val select (19.11, best 13.89) nor Val NAE (1.300, best 0.990) improved.
+    13   18348.695  40025.422           1.042         1.125     27.317   19.107     35.02    1.300    0.764     0.758   0.679   5.00e-06       689.4  
+  --- PLATEAU 11/12 at epoch 14: neither Val select (19.06, best 13.89) nor Val NAE (1.277, best 0.990) improved.
+    14   18238.455  40541.184           1.033         1.109     26.473   19.063     34.70    1.277    0.768     0.760   0.682   2.50e-06       689.5  
+  --- PLATEAU 12/12 at epoch 15: neither Val select (18.77, best 13.89) nor Val NAE (1.304, best 0.990) improved.
+    15   17909.787  39932.352           1.031         1.113     27.051   18.771     34.46    1.304    0.767     0.760   0.680   2.50e-06       694.2  
+
+Best model - epoch 3:
+  Train loss:      20922.773
+  Val loss:        60449.023
+  Train main loss: 0.918
+  Val main loss:   1.050
+  Train MAE:       28.062
+  Val MAE:         13.888
+  Val RMSE:        25.19
+  Val NAE:         0.990
+  Val IoU@.5:      0.7740
+  Val GIoU@.5:     0.7677
+  Val Precision@.5: 0.6466
+  Val Recall@.5:    0.7733
+  Val F1@.5:        0.7043
+  Epoch time:      702.4s
+
+Checkpoint saved at: /d/hpc/home/er52565/GECO2/results_MCAC/17564520/GECO2_MCAC_geco2_finetuned_dens_aw10_few_200.pth

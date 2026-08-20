@@ -1,0 +1,86 @@
+Model path: /d/hpc/home/er52565/GECO2/results_MCAC/17607573_depth_dim/GECO2_MCAC_depth_dim_pdmgen_drfull_dnorm_k1_idinit_dens_probeA_aw10_few_200.pth
+Created: 2026-07-18 17:53:13
+Wandb run: https://wandb.ai/radovicevic-erik1-/GECO2-D/runs/nttqp4jk
+
+ Epoch   TrainLoss   ValLoss   TrainMainLoss   ValMainLoss   TrainMAE   ValMAE   ValRMSE   ValNAE   ValIoU   ValGIoU   ValF1         LR   EpochTime  Best
+-------------------------------------------------------------------------------------------------------------------------
+  ~~~ depth-fusion deviation @epoch 1: total_L2=7.6790e-04  (depth_feat_norm_layer=1.538e-04, initial_depth_fuse=7.523e-04)
+  ::: PROBE epoch 1: val_select=19.052 best=19.052 stall=0/5
+     1   25618.684  73527.297           0.932         1.117     34.143   19.052     32.96    1.479    0.769     0.762   0.663   1.44e-06      1088.4  *
+  ~~~ depth-fusion deviation @epoch 2: total_L2=2.7298e-03  (depth_feat_norm_layer=1.318e-03, initial_depth_fuse=2.391e-03)
+  ::: PROBE epoch 2: val_select=19.043 best=19.043 stall=0/5
+     2   22342.617  73577.453           0.925         1.114     33.695   19.043     32.96    1.479    0.769     0.762   0.662   2.63e-06      1100.0  *
+  ~~~ depth-fusion deviation @epoch 3: total_L2=4.4998e-03  (depth_feat_norm_layer=2.412e-03, initial_depth_fuse=3.799e-03)
+  ::: PROBE epoch 3: val_select=19.041 best=19.041 stall=0/5
+     3   22861.473  73488.078           0.949         1.115     35.544   19.041     32.93    1.477    0.769     0.762   0.662   3.81e-06      1123.8  *
+  ~~~ depth-fusion deviation @epoch 4: total_L2=4.7068e-03  (depth_feat_norm_layer=1.985e-03, initial_depth_fuse=4.268e-03)
+  ::: PROBE epoch 4: val_select=19.043 best=19.041 stall=1/5
+     4   22318.764  73564.828           0.937         1.115     35.004   19.043     32.98    1.475    0.769     0.762   0.663   5.00e-06      1123.0  
+  ~~~ depth-fusion deviation @epoch 5: total_L2=7.4965e-03  (depth_feat_norm_layer=3.233e-03, initial_depth_fuse=6.764e-03)
+  ::: PROBE epoch 5: val_select=19.058 best=19.041 stall=2/5  -> CUT depth-fusion LR
+     5   21612.529  73500.602           0.935         1.116     34.584   19.058     32.98    1.480    0.769     0.762   0.663   5.00e-06      1109.5  
+  ~~~ depth-fusion deviation @epoch 6: total_L2=8.1812e-03  (depth_feat_norm_layer=3.326e-03, initial_depth_fuse=7.474e-03)
+  ::: PROBE epoch 6: val_select=19.074 best=19.041 stall=3/5
+     6   22177.727  73121.289           0.952         1.116     34.514   19.074     32.96    1.476    0.769     0.762   0.662   5.00e-06      1116.3  
+  ~~~ depth-fusion deviation @epoch 7: total_L2=1.0110e-02  (depth_feat_norm_layer=4.858e-03, initial_depth_fuse=8.867e-03)
+  ::: PROBE epoch 7: val_select=19.053 best=19.041 stall=4/5  -> CUT depth-fusion LR
+     7   21594.090  73141.812           0.927         1.116     34.193   19.053     32.99    1.475    0.769     0.762   0.663   5.00e-06      1115.1  
+  ~~~ depth-fusion deviation @epoch 8: total_L2=1.0883e-02  (depth_feat_norm_layer=5.084e-03, initial_depth_fuse=9.622e-03)
+  ::: PROBE epoch 8: val_select=19.059 best=19.041 stall=5/5  -> END PROBE (body unfreezes next epoch)
+     8   21393.730  73143.555           0.929         1.116     35.057   19.059     32.99    1.480    0.769     0.762   0.662   5.00e-06      1114.3  
+  ~~~ depth-fusion deviation @epoch 9: total_L2=1.1172e-02  (depth_feat_norm_layer=5.174e-03, initial_depth_fuse=9.902e-03)
+     9   19756.816  61911.793           0.907         1.036     27.622   14.407     26.16    1.039    0.773     0.767   0.698   5.00e-06      1141.9  *
+  ~~~ depth-fusion deviation @epoch 10: total_L2=1.1658e-02  (depth_feat_norm_layer=5.155e-03, initial_depth_fuse=1.046e-02)
+  --- PLATEAU 1/12 at epoch 10: neither Val select (15.56, best 14.41) nor Val NAE (1.104, best 1.039) improved.
+    10   20242.686  54605.859           0.950         1.060     28.067   15.563     28.26    1.104    0.773     0.767   0.698   5.00e-06      1133.8  
+  ~~~ depth-fusion deviation @epoch 11: total_L2=1.2780e-02  (depth_feat_norm_layer=5.620e-03, initial_depth_fuse=1.148e-02)
+  --- PLATEAU 2/12 at epoch 11: neither Val select (16.53, best 14.41) nor Val NAE (1.202, best 1.039) improved.
+    11   19647.352  49198.789           0.975         1.081     28.587   16.531     29.91    1.202    0.773     0.766   0.693   5.00e-06      1134.8  
+  ~~~ depth-fusion deviation @epoch 12: total_L2=1.2359e-02  (depth_feat_norm_layer=5.255e-03, initial_depth_fuse=1.119e-02)
+  --- PLATEAU 3/12 at epoch 12: neither Val select (15.13, best 14.41) nor Val NAE (1.107, best 1.039) improved.
+    12   19671.318  44779.117           0.995         1.072     27.487   15.125     27.58    1.107    0.772     0.766   0.698   5.00e-06      1107.5  
+  ~~~ depth-fusion deviation @epoch 13: total_L2=1.4036e-02  (depth_feat_norm_layer=5.952e-03, initial_depth_fuse=1.271e-02)
+  --- PLATEAU 4/12 at epoch 13: neither Val select (14.84, best 14.41) nor Val NAE (1.110, best 1.039) improved.
+    13   19562.988  47168.336           0.995         1.075     27.670   14.844     27.51    1.110    0.773     0.766   0.701   5.00e-06      1098.2  
+  ~~~ depth-fusion deviation @epoch 14: total_L2=1.5226e-02  (depth_feat_norm_layer=6.520e-03, initial_depth_fuse=1.376e-02)
+  --- PLATEAU 5/12 at epoch 14: neither Val select (15.92, best 14.41) nor Val NAE (1.194, best 1.039) improved.
+    14   19423.553  47127.312           0.994         1.089     27.116   15.919     29.26    1.194    0.771     0.765   0.697   2.50e-06      1093.8  
+  ~~~ depth-fusion deviation @epoch 15: total_L2=1.5823e-02  (depth_feat_norm_layer=6.902e-03, initial_depth_fuse=1.424e-02)
+  --- PLATEAU 6/12 at epoch 15: neither Val select (16.44, best 14.41) nor Val NAE (1.209, best 1.039) improved.
+    15   18327.176  46835.910           0.992         1.088     27.672   16.437     30.05    1.209    0.771     0.764   0.694   2.50e-06      1100.9  
+  ~~~ depth-fusion deviation @epoch 16: total_L2=1.6216e-02  (depth_feat_norm_layer=7.208e-03, initial_depth_fuse=1.453e-02)
+  --- PLATEAU 7/12 at epoch 16: neither Val select (15.91, best 14.41) nor Val NAE (1.150, best 1.039) improved.
+    16   18070.451  46838.613           1.000         1.082     26.098   15.911     29.18    1.150    0.771     0.765   0.698   2.50e-06      1095.7  
+  ~~~ depth-fusion deviation @epoch 17: total_L2=1.6776e-02  (depth_feat_norm_layer=7.323e-03, initial_depth_fuse=1.509e-02)
+  --- PLATEAU 8/12 at epoch 17: neither Val select (16.23, best 14.41) nor Val NAE (1.177, best 1.039) improved.
+    17   18376.842  46415.711           1.002         1.089     26.422   16.227     29.65    1.177    0.772     0.765   0.696   2.50e-06      1098.4  
+  ~~~ depth-fusion deviation @epoch 18: total_L2=1.7155e-02  (depth_feat_norm_layer=7.540e-03, initial_depth_fuse=1.541e-02)
+  --- PLATEAU 9/12 at epoch 18: neither Val select (16.57, best 14.41) nor Val NAE (1.212, best 1.039) improved.
+    18   18001.945  45504.035           1.000         1.088     26.047   16.575     30.23    1.212    0.772     0.766   0.694   1.25e-06      1098.3  
+  ~~~ depth-fusion deviation @epoch 19: total_L2=1.7292e-02  (depth_feat_norm_layer=7.478e-03, initial_depth_fuse=1.559e-02)
+  --- PLATEAU 10/12 at epoch 19: neither Val select (16.45, best 14.41) nor Val NAE (1.191, best 1.039) improved.
+    19   17721.396  45501.297           1.001         1.085     25.782   16.453     30.00    1.191    0.772     0.765   0.695   1.25e-06      1101.1  
+  ~~~ depth-fusion deviation @epoch 20: total_L2=1.7414e-02  (depth_feat_norm_layer=7.497e-03, initial_depth_fuse=1.572e-02)
+  --- PLATEAU 11/12 at epoch 20: neither Val select (16.27, best 14.41) nor Val NAE (1.182, best 1.039) improved.
+    20   17464.967  46454.367           1.000         1.085     25.739   16.271     29.68    1.182    0.771     0.765   0.694   1.25e-06      1099.1  
+  ~~~ depth-fusion deviation @epoch 21: total_L2=1.7508e-02  (depth_feat_norm_layer=7.433e-03, initial_depth_fuse=1.585e-02)
+  --- PLATEAU 12/12 at epoch 21: neither Val select (15.74, best 14.41) nor Val NAE (1.146, best 1.039) improved.
+    21   17667.752  46124.465           0.996         1.081     26.054   15.736     28.77    1.146    0.772     0.765   0.697   1.25e-06      1110.0  
+
+Best model - epoch 9:
+  Train loss:      19756.816
+  Val loss:        61911.793
+  Train main loss: 0.907
+  Val main loss:   1.036
+  Train MAE:       27.622
+  Val MAE:         14.407
+  Val RMSE:        26.16
+  Val NAE:         1.039
+  Val IoU@.5:      0.7730
+  Val GIoU@.5:     0.7667
+  Val Precision@.5: 0.6373
+  Val Recall@.5:    0.7727
+  Val F1@.5:        0.6985
+  Epoch time:      1141.9s
+
+Checkpoint saved at: /d/hpc/home/er52565/GECO2/results_MCAC/17607573_depth_dim/GECO2_MCAC_depth_dim_pdmgen_drfull_dnorm_k1_idinit_dens_probeA_aw10_few_200.pth

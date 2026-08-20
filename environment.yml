@@ -1,0 +1,109 @@
+name: geco2
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - pip
+
+  - pip:
+    # pytorch cu121
+    - --extra-index-url https://download.pytorch.org/whl/cu121
+    - torch==2.1.0+cu121
+    - torchvision==0.16.0+cu121
+    - torchaudio==2.1.0+cu121
+    - triton==2.1.0
+
+    # gradio and web server
+    - gradio==4.44.1
+    - gradio_client==1.3.0
+    # gradio_image_prompter: install manually from the local .whl:
+    #   pip install gradio_image_prompter-0.1.0-py3-none-any.whl
+    - fastapi==0.115.12
+    - uvicorn==0.34.0
+    - starlette==0.46.1
+    - websockets==12.0
+    - python-multipart==0.0.20
+    - httpx==0.28.1
+    - httpcore==1.0.9
+    - h11==0.16.0
+    - anyio==4.9.0
+    - sniffio==1.3.1
+    - orjson==3.10.16
+    - pydantic==2.10.6
+    - pydantic_core==2.27.2
+    - annotated-types==0.7.0
+    - typing-inspection==0.4.0
+    - ffmpy==0.5.0
+    - pydub==0.25.1
+    - aiofiles==23.2.1
+    - safehttpx==0.1.6
+
+    # vision / numeric
+    - numpy==1.26.4
+    - opencv-python
+    - pillow==10.4.0
+    - scipy==1.15.2
+    - scikit-image==0.25.2
+    - imageio==2.37.0
+    - tifffile==2025.3.13
+    - lazy_loader==0.4
+    - matplotlib==3.10.1
+    - contourpy==1.3.1
+    - cycler==0.12.1
+    - fonttools==4.56.0
+    - kiwisolver==1.4.8
+    - pyparsing==3.2.3
+
+    # model utils
+    - einops==0.8.1
+    - hydra-core==1.3.2
+    - omegaconf==2.3.0
+    - antlr4-python3-runtime==4.9.3
+
+    # data / annotations
+    - pycocotools==2.0.8
+    - pandas==2.2.3
+    - python-dateutil==2.9.0.post0
+    - pytz==2025.2
+    - tzdata==2025.2
+    - six==1.17.0
+
+    # hf hub
+    - huggingface-hub==0.29.3
+    - filelock==3.18.0
+    - packaging==25.0
+
+    # http
+    - requests==2.32.3
+    - certifi==2025.4.26
+    - charset-normalizer==3.4.1
+    - idna==3.10
+    - urllib3==2.4.0
+
+    # cli
+    - tqdm==4.67.1
+    - click==8.1.8
+    - rich==13.9.4
+    - Pygments==2.19.1
+    - markdown-it-py==3.0.0
+    - mdurl==0.1.2
+    - typer==0.15.2
+    - RapidFuzz==3.13.0
+
+    # build helpers (Deformable-DETR ops)
+    - setuptools
+    - wheel
+    - ninja
+
+    # misc
+    - typing_extensions==4.13.2
+    - exceptiongroup==1.2.2
+    - importlib_metadata==8.7.0
+    - importlib_resources==6.5.2
+    - zipp==3.21.0
+    - MarkupSafe==2.1.5
+    - msgpack==1.1.0
+    - tomli==2.2.1
+    - ruff==0.11.2

@@ -1,0 +1,92 @@
+Model path: /d/hpc/home/er52565/GECO2/results_MCAC/17868967_conv_hiera/GECO2_MCAC_conv_hiera_pdmgen_pdf8gen_dinoInSize512_dconv_lcues_oinit_dfc8_dnorm_k1_idinit_hiresn_densg_probeAonly_aw10_few_200.pth
+Created: 2026-07-28 05:15:45
+Wandb run: https://wandb.ai/radovicevic-erik1-/GECO2-D/runs/zp5j2dce
+
+ Epoch   TrainLoss   ValLoss   TrainMainLoss   ValMainLoss   TrainMAE   ValMAE   ValRMSE   ValNAE  ValDensMAE   ValIoU   ValGIoU   ValF1         LR   EpochTime  Best
+-------------------------------------------------------------------------------------------------------------------------------------
+  ~~~ depth-fusion deviation @epoch 1: total_L2=1.1555e-01  (depth_channel_adapt.conv1=3.026e-02, depth_channel_adapt.conv2=2.573e-02, depth_channel_adapt.gn=4.988e-03, depth_feat_norm_layer=2.708e-03, depth_fuse_l1=5.387e-02, depth_fuse_l2=6.755e-02, depth_fuse_src=6.540e-02, initial_depth_fuse=6.868e-04, initial_depth_fuse_norm=4.076e-04)
+  ~~~ density-guide gate @epoch 1: gamma|mean|=1.8556e-03  gamma|max|=5.7647e-03  rel_energy=1.2393e-05
+  ~~~ conv-depth-adapter @epoch 1: eff_rank=3.3/8  |act|=6.204e-01  std=7.121e-01  dead=0.498  naninf=0
+  ::: PROBE epoch 1: val_select=18.988 best=18.988 stall=0/5
+     1   25466.330  33498.379           0.943         0.945     37.753   18.988     33.31    1.446      15.062    0.769     0.763   0.664   1.44e-06      1010.7  *
+  ~~~ depth-fusion deviation @epoch 2: total_L2=2.8957e-01  (depth_channel_adapt.conv1=5.882e-02, depth_channel_adapt.conv2=6.278e-02, depth_channel_adapt.gn=1.034e-02, depth_feat_norm_layer=6.418e-03, depth_fuse_l1=1.374e-01, depth_fuse_l2=1.750e-01, depth_fuse_src=1.637e-01, initial_depth_fuse=1.923e-03, initial_depth_fuse_norm=1.138e-03)
+  ~~~ density-guide gate @epoch 2: gamma|mean|=1.1747e-02  gamma|max|=2.7028e-02  rel_energy=6.5237e-04
+  ~~~ conv-depth-adapter @epoch 2: eff_rank=3.0/8  |act|=6.462e-01  std=7.333e-01  dead=0.498  naninf=0
+  ::: PROBE epoch 2: val_select=16.213 best=16.213 stall=0/5
+     2   21243.490  32738.203           0.910         0.912     32.780   16.213     29.22    1.247      14.462    0.773     0.766   0.683   2.63e-06      1015.4  *
+  ~~~ depth-fusion deviation @epoch 3: total_L2=4.7230e-01  (depth_channel_adapt.conv1=8.782e-02, depth_channel_adapt.conv2=9.321e-02, depth_channel_adapt.gn=1.465e-02, depth_feat_norm_layer=1.021e-02, depth_fuse_l1=2.357e-01, depth_fuse_l2=2.679e-01, depth_fuse_src=2.811e-01, initial_depth_fuse=3.043e-03, initial_depth_fuse_norm=1.812e-03)
+  ~~~ density-guide gate @epoch 3: gamma|mean|=1.7598e-02  gamma|max|=3.9387e-02  rel_energy=2.0512e-03
+  ~~~ conv-depth-adapter @epoch 3: eff_rank=2.9/8  |act|=6.505e-01  std=7.355e-01  dead=0.497  naninf=0
+  ::: PROBE epoch 3: val_select=13.282 best=13.282 stall=0/5
+     3   20732.330  31658.102           0.899         0.880     29.474   13.282     24.58    0.980      11.429    0.776     0.769   0.703   3.81e-06      1025.5  *
+  ~~~ depth-fusion deviation @epoch 4: total_L2=6.8372e-01  (depth_channel_adapt.conv1=1.173e-01, depth_channel_adapt.conv2=1.220e-01, depth_channel_adapt.gn=1.955e-02, depth_feat_norm_layer=1.316e-02, depth_fuse_l1=3.581e-01, depth_fuse_l2=3.869e-01, depth_fuse_src=4.005e-01, initial_depth_fuse=3.705e-03, initial_depth_fuse_norm=2.471e-03)
+  ~~~ density-guide gate @epoch 4: gamma|mean|=2.0215e-02  gamma|max|=6.1394e-02  rel_energy=2.8305e-03
+  ~~~ conv-depth-adapter @epoch 4: eff_rank=2.9/8  |act|=6.741e-01  std=7.540e-01  dead=0.497  naninf=0
+  ::: PROBE epoch 4: val_select=12.172 best=12.172 stall=0/5
+     4   19449.652  30653.771           0.887         0.874     26.323   12.172     22.79    0.868      11.739    0.777     0.771   0.713   5.00e-06      1023.9  *
+  ~~~ depth-fusion deviation @epoch 5: total_L2=8.9378e-01  (depth_channel_adapt.conv1=1.558e-01, depth_channel_adapt.conv2=1.456e-01, depth_channel_adapt.gn=2.294e-02, depth_feat_norm_layer=1.424e-02, depth_fuse_l1=4.948e-01, depth_fuse_l2=4.964e-01, depth_fuse_src=5.112e-01, initial_depth_fuse=5.813e-03, initial_depth_fuse_norm=3.029e-03)
+  ~~~ density-guide gate @epoch 5: gamma|mean|=2.2903e-02  gamma|max|=8.7848e-02  rel_energy=3.6593e-03
+  ~~~ conv-depth-adapter @epoch 5: eff_rank=2.9/8  |act|=6.752e-01  std=7.505e-01  dead=0.496  naninf=0
+  ::: PROBE epoch 5: val_select=12.225 best=12.172 stall=1/5
+     5   19759.275  29684.691           0.895         0.876     25.881   12.225     22.87    0.855      11.396    0.778     0.772   0.716   5.00e-06      1032.9  
+  ~~~ depth-fusion deviation @epoch 6: total_L2=1.1299e+00  (depth_channel_adapt.conv1=2.077e-01, depth_channel_adapt.conv2=1.859e-01, depth_channel_adapt.gn=3.012e-02, depth_feat_norm_layer=1.659e-02, depth_fuse_l1=6.351e-01, depth_fuse_l2=6.215e-01, depth_fuse_src=6.388e-01, initial_depth_fuse=8.993e-03, initial_depth_fuse_norm=3.067e-03)
+  ~~~ density-guide gate @epoch 6: gamma|mean|=2.6283e-02  gamma|max|=9.9579e-02  rel_energy=4.8165e-03
+  ~~~ conv-depth-adapter @epoch 6: eff_rank=3.0/8  |act|=6.892e-01  std=7.558e-01  dead=0.495  naninf=0
+  ::: PROBE epoch 6: val_select=11.877 best=11.877 stall=0/5
+     6   18629.609  28561.293           0.885         0.880     24.515   11.877     22.38    0.806      11.451    0.777     0.771   0.716   5.00e-06      1024.5  *
+  ~~~ depth-fusion deviation @epoch 7: total_L2=1.3735e+00  (depth_channel_adapt.conv1=2.467e-01, depth_channel_adapt.conv2=2.279e-01, depth_channel_adapt.gn=3.557e-02, depth_feat_norm_layer=1.789e-02, depth_fuse_l1=7.669e-01, depth_fuse_l2=7.640e-01, depth_fuse_src=7.748e-01, initial_depth_fuse=1.073e-02, initial_depth_fuse_norm=3.949e-03)
+  ~~~ density-guide gate @epoch 7: gamma|mean|=2.7416e-02  gamma|max|=1.0679e-01  rel_energy=4.8759e-03
+  ~~~ conv-depth-adapter @epoch 7: eff_rank=3.0/8  |act|=6.875e-01  std=7.552e-01  dead=0.495  naninf=0
+  ::: PROBE epoch 7: val_select=11.531 best=11.531 stall=0/5
+     7   18995.609  28205.238           0.898         0.887     24.761   11.531     21.83    0.810      13.853    0.777     0.771   0.720   5.00e-06      1008.7  *
+  ~~~ depth-fusion deviation @epoch 8: total_L2=1.6537e+00  (depth_channel_adapt.conv1=2.913e-01, depth_channel_adapt.conv2=2.689e-01, depth_channel_adapt.gn=4.048e-02, depth_feat_norm_layer=1.979e-02, depth_fuse_l1=9.399e-01, depth_fuse_l2=9.197e-01, depth_fuse_src=9.198e-01, initial_depth_fuse=1.502e-02, initial_depth_fuse_norm=5.065e-03)
+  ~~~ density-guide gate @epoch 8: gamma|mean|=2.9353e-02  gamma|max|=1.1650e-01  rel_energy=5.5869e-03
+  ~~~ conv-depth-adapter @epoch 8: eff_rank=3.0/8  |act|=7.451e-01  std=8.149e-01  dead=0.495  naninf=0
+  ::: PROBE epoch 8: val_select=11.186 best=11.186 stall=0/5
+     8   18589.424  27957.281           0.908         0.879     24.428   11.186     21.55    0.762      10.766    0.778     0.771   0.725   5.00e-06      1032.1  *
+  ~~~ depth-fusion deviation @epoch 9: total_L2=1.8748e+00  (depth_channel_adapt.conv1=3.464e-01, depth_channel_adapt.conv2=3.001e-01, depth_channel_adapt.gn=4.743e-02, depth_feat_norm_layer=1.843e-02, depth_fuse_l1=1.069e+00, depth_fuse_l2=1.038e+00, depth_fuse_src=1.040e+00, initial_depth_fuse=1.800e-02, initial_depth_fuse_norm=5.108e-03)
+  ~~~ density-guide gate @epoch 9: gamma|mean|=3.3421e-02  gamma|max|=1.3148e-01  rel_energy=8.0014e-03
+  ~~~ conv-depth-adapter @epoch 9: eff_rank=3.1/8  |act|=7.400e-01  std=8.089e-01  dead=0.493  naninf=0
+  ::: PROBE epoch 9: val_select=12.166 best=11.186 stall=1/5
+     9   18970.523  28152.447           0.914         0.914     24.042   12.166     23.22    0.848      13.941    0.776     0.770   0.712   5.00e-06      1020.7  
+  ~~~ depth-fusion deviation @epoch 10: total_L2=2.1155e+00  (depth_channel_adapt.conv1=3.838e-01, depth_channel_adapt.conv2=3.211e-01, depth_channel_adapt.gn=5.197e-02, depth_feat_norm_layer=2.040e-02, depth_fuse_l1=1.216e+00, depth_fuse_l2=1.147e+00, depth_fuse_src=1.194e+00, initial_depth_fuse=2.153e-02, initial_depth_fuse_norm=9.620e-03)
+  ~~~ density-guide gate @epoch 10: gamma|mean|=3.4447e-02  gamma|max|=1.4428e-01  rel_energy=8.6295e-03
+  ~~~ conv-depth-adapter @epoch 10: eff_rank=3.0/8  |act|=7.355e-01  std=8.045e-01  dead=0.495  naninf=0
+  ::: PROBE epoch 10: val_select=11.229 best=11.186 stall=2/5  -> CUT depth-fusion LR
+    10   18544.375  28221.320           0.920         0.920     24.331   11.229     21.24    0.754      10.529    0.776     0.770   0.719   5.00e-06      1024.3  
+  ~~~ depth-fusion deviation @epoch 11: total_L2=2.2155e+00  (depth_channel_adapt.conv1=3.832e-01, depth_channel_adapt.conv2=3.289e-01, depth_channel_adapt.gn=5.249e-02, depth_feat_norm_layer=1.962e-02, depth_fuse_l1=1.287e+00, depth_fuse_l2=1.201e+00, depth_fuse_src=1.245e+00, initial_depth_fuse=2.325e-02, initial_depth_fuse_norm=9.750e-03)
+  ~~~ density-guide gate @epoch 11: gamma|mean|=3.6838e-02  gamma|max|=1.5026e-01  rel_energy=9.4253e-03
+  ~~~ conv-depth-adapter @epoch 11: eff_rank=2.9/8  |act|=7.479e-01  std=8.087e-01  dead=0.494  naninf=0
+  ::: PROBE epoch 11: val_select=12.526 best=11.186 stall=3/5
+    11   17917.152  28386.568           0.925         0.954     23.490   12.526     23.74    0.828      10.126    0.773     0.767   0.713   5.00e-06      1012.5  
+  ~~~ depth-fusion deviation @epoch 12: total_L2=2.3355e+00  (depth_channel_adapt.conv1=3.986e-01, depth_channel_adapt.conv2=3.418e-01, depth_channel_adapt.gn=5.360e-02, depth_feat_norm_layer=2.135e-02, depth_fuse_l1=1.365e+00, depth_fuse_l2=1.266e+00, depth_fuse_src=1.307e+00, initial_depth_fuse=2.270e-02, initial_depth_fuse_norm=9.352e-03)
+  ~~~ density-guide gate @epoch 12: gamma|mean|=3.8213e-02  gamma|max|=1.6521e-01  rel_energy=1.1092e-02
+  ~~~ conv-depth-adapter @epoch 12: eff_rank=2.9/8  |act|=7.278e-01  std=7.930e-01  dead=0.494  naninf=0
+  ::: PROBE epoch 12: val_select=12.345 best=11.186 stall=4/5  -> CUT depth-fusion LR
+    12   17679.830  28342.463           0.936         0.949     23.515   12.345     23.42    0.803       9.710    0.773     0.767   0.714   5.00e-06      1016.8  
+  ~~~ depth-fusion deviation @epoch 13: total_L2=2.3803e+00  (depth_channel_adapt.conv1=4.067e-01, depth_channel_adapt.conv2=3.470e-01, depth_channel_adapt.gn=5.511e-02, depth_feat_norm_layer=2.245e-02, depth_fuse_l1=1.395e+00, depth_fuse_l2=1.288e+00, depth_fuse_src=1.330e+00, initial_depth_fuse=2.378e-02, initial_depth_fuse_norm=1.018e-02)
+  ~~~ density-guide gate @epoch 13: gamma|mean|=3.9159e-02  gamma|max|=1.6767e-01  rel_energy=1.1455e-02
+  ~~~ conv-depth-adapter @epoch 13: eff_rank=3.0/8  |act|=7.182e-01  std=7.824e-01  dead=0.494  naninf=0
+  ::: PROBE epoch 13: val_select=12.823 best=11.186 stall=5/5  -> END PROBE (body unfreezes next epoch)
+    13   17711.445  28454.230           0.942         0.965     24.346   12.823     24.07    0.865       9.778    0.773     0.767   0.710   5.00e-06       994.0  
+
+Best model - epoch 8:
+  Train loss:      18589.424
+  Val loss:        27957.281
+  Train main loss: 0.908
+  Val main loss:   0.879
+  Train MAE:       24.428
+  Val MAE:         11.186
+  Val RMSE:        21.55
+  Val NAE:         0.762
+  Val dens MAE:    10.766
+  Val IoU@.5:      0.7777
+  Val GIoU@.5:     0.7715
+  Val Precision@.5: 0.6868
+  Val Recall@.5:    0.7667
+  Val F1@.5:        0.7246
+  Epoch time:      1032.1s
+
+Best-DENSITY checkpoint - epoch 12: Val dens MAE 9.710 (secondary, saved as *_bestdens_<epochs>.pth; box-MAE selection unchanged)
+
+Checkpoint saved at: /d/hpc/home/er52565/GECO2/results_MCAC/17868967_conv_hiera/GECO2_MCAC_conv_hiera_pdmgen_pdf8gen_dinoInSize512_dconv_lcues_oinit_dfc8_dnorm_k1_idinit_hiresn_densg_probeAonly_aw10_few_200.pth

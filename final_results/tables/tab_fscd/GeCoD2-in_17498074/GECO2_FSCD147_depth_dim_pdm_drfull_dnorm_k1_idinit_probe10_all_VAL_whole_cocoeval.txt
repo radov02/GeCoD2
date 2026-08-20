@@ -1,0 +1,33 @@
+Created: 2026-07-15 22:00:38
+Evaluating on val set  (pred=/d/hpc/home/er52565/GECO2/results_FSCD147/17498074/GECO2_FSCD147_depth_dim_pdm_drfull_dnorm_k1_idinit_probe10_all_VAL_whole_coco_preds.json)
+number of images 1286
+Loading and preparing results...
+DONE (t=0.34s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=262.00s).
+Accumulating evaluation results...
+DONE (t=1.60s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=10000 ] = 0.367
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=10000 ] = 0.657
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=10000 ] = 0.374
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=10000 ] = 0.231
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=10000 ] = 0.574
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=10000 ] = 0.701
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=10000 ] = 0.418
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=10000 ] = 0.418
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=10000 ] = 0.418
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=10000 ] = 0.295
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=10000 ] = 0.634
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=10000 ] = 0.747
+number of images: 1286
+MAE: 9.06
+RMSE: 32.01
+NAE: 0.1194
+SRE: 1.85
+Detect results
+OrderedDict([('bbox', {'AP': 36.70419541489807, 'AP50': 65.65562289524394, 'AP75': 37.35099263843954, 'APs': 23.057347600840668, 'APm': 57.4415306966075, 'APl': 70.07342998307242})])
+save to each_img_inforval.pkl
+********************

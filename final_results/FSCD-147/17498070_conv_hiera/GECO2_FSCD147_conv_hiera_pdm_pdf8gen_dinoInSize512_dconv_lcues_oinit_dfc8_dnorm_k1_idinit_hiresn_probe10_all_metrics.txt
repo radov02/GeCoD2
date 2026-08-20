@@ -1,0 +1,94 @@
+Model path: /d/hpc/home/er52565/GECO2/results_FSCD147/17498070/GECO2_FSCD147_conv_hiera_pdm_pdf8gen_dinoInSize512_dconv_lcues_oinit_dfc8_dnorm_k1_idinit_hiresn_probe10_all_200.pth
+Created: 2026-07-15 11:01:26
+Wandb run: https://wandb.ai/radovicevic-erik1-/GECO2-D/runs/e7o5677c
+
+ Epoch   TrainLoss   ValLoss   TrainMainLoss   ValMainLoss   TrainMAE   ValMAE   ValRMSE   ValNAE   ValIoU   ValGIoU   ValF1         LR   EpochTime  Best
+-------------------------------------------------------------------------------------------------------------------------
+  ~~~ depth-fusion deviation @epoch 1: total_L2=2.1657e-01  (depth_channel_adapt.conv1=3.218e-02, depth_channel_adapt.conv2=3.561e-02, depth_channel_adapt.gn=6.934e-03, depth_feat_norm_layer=5.254e-03, depth_fuse_l1=1.108e-01, depth_fuse_l2=1.189e-01, depth_fuse_src=1.346e-01, initial_depth_fuse=7.979e-04, initial_depth_fuse_norm=3.109e-04)
+  ~~~ conv-depth-adapter @epoch 1: eff_rank=4.3/8  |act|=4.680e-01  std=6.176e-01  dead=0.487  naninf=0
+     1    2270.940  5916.413           0.570         0.689     10.826    9.031     32.11    0.121    0.743     0.736   0.723   2.75e-06       629.8  *
+  ~~~ depth-fusion deviation @epoch 2: total_L2=7.2150e-01  (depth_channel_adapt.conv1=1.348e-01, depth_channel_adapt.conv2=1.253e-01, depth_channel_adapt.gn=2.408e-02, depth_feat_norm_layer=1.439e-02, depth_fuse_l1=3.867e-01, depth_fuse_l2=4.593e-01, depth_fuse_src=3.541e-01, initial_depth_fuse=7.814e-03, initial_depth_fuse_norm=2.088e-03)
+  ~~~ conv-depth-adapter @epoch 2: eff_rank=4.1/8  |act|=4.865e-01  std=6.406e-01  dead=0.487  naninf=0
+     2    2258.926  6033.381           0.569         0.692     10.999    9.139     32.63    0.126    0.741     0.735   0.721   5.00e-06       609.8  
+  ~~~ depth-fusion deviation @epoch 3: total_L2=1.2244e+00  (depth_channel_adapt.conv1=2.645e-01, depth_channel_adapt.conv2=2.213e-01, depth_channel_adapt.gn=4.110e-02, depth_feat_norm_layer=2.175e-02, depth_fuse_l1=6.193e-01, depth_fuse_l2=8.013e-01, depth_fuse_src=5.933e-01, initial_depth_fuse=2.083e-02, initial_depth_fuse_norm=7.473e-03)
+  ~~~ conv-depth-adapter @epoch 3: eff_rank=3.6/8  |act|=4.837e-01  std=6.541e-01  dead=0.485  naninf=0
+     3    2260.480  6056.385           0.568         0.679     11.218    9.044     32.69    0.124    0.744     0.737   0.726   5.00e-06       608.0  
+  ~~~ depth-fusion deviation @epoch 4: total_L2=1.5606e+00  (depth_channel_adapt.conv1=3.558e-01, depth_channel_adapt.conv2=2.772e-01, depth_channel_adapt.gn=5.066e-02, depth_feat_norm_layer=3.096e-02, depth_fuse_l1=7.698e-01, depth_fuse_l2=1.014e+00, depth_fuse_src=7.784e-01, initial_depth_fuse=3.061e-02, initial_depth_fuse_norm=1.701e-02)
+  ~~~ conv-depth-adapter @epoch 4: eff_rank=3.7/8  |act|=4.946e-01  std=6.547e-01  dead=0.486  naninf=0
+     4    2202.392  5967.022           0.556         0.689     11.015    9.301     31.60    0.138    0.740     0.733   0.718   5.00e-06       608.7  
+  ~~~ depth-fusion deviation @epoch 5: total_L2=1.8331e+00  (depth_channel_adapt.conv1=4.377e-01, depth_channel_adapt.conv2=3.316e-01, depth_channel_adapt.gn=6.309e-02, depth_feat_norm_layer=4.060e-02, depth_fuse_l1=9.046e-01, depth_fuse_l2=1.184e+00, depth_fuse_src=9.118e-01, initial_depth_fuse=4.142e-02, initial_depth_fuse_norm=2.701e-02)
+  ~~~ conv-depth-adapter @epoch 5: eff_rank=3.7/8  |act|=4.856e-01  std=6.371e-01  dead=0.486  naninf=0
+     5    2177.703  5914.381           0.548         0.681     11.306    9.922     41.93    0.135    0.740     0.733   0.716   5.00e-06       616.0  
+  ~~~ depth-fusion deviation @epoch 6: total_L2=2.0585e+00  (depth_channel_adapt.conv1=4.983e-01, depth_channel_adapt.conv2=3.750e-01, depth_channel_adapt.gn=7.210e-02, depth_feat_norm_layer=4.963e-02, depth_fuse_l1=1.013e+00, depth_fuse_l2=1.332e+00, depth_fuse_src=1.019e+00, initial_depth_fuse=5.313e-02, initial_depth_fuse_norm=3.350e-02)
+  ~~~ conv-depth-adapter @epoch 6: eff_rank=3.6/8  |act|=4.829e-01  std=6.160e-01  dead=0.486  naninf=0
+     6    2196.630  6040.306           0.552         0.678     11.806    8.983     32.51    0.121    0.743     0.736   0.726   5.00e-06       661.4  *
+  ~~~ depth-fusion deviation @epoch 7: total_L2=2.3072e+00  (depth_channel_adapt.conv1=5.629e-01, depth_channel_adapt.conv2=4.204e-01, depth_channel_adapt.gn=7.818e-02, depth_feat_norm_layer=5.498e-02, depth_fuse_l1=1.156e+00, depth_fuse_l2=1.482e+00, depth_fuse_src=1.132e+00, initial_depth_fuse=6.134e-02, initial_depth_fuse_norm=3.866e-02)
+  ~~~ conv-depth-adapter @epoch 7: eff_rank=3.6/8  |act|=4.817e-01  std=6.289e-01  dead=0.486  naninf=0
+     7    2168.447  5910.907           0.548         0.683     11.818    9.309     36.21    0.129    0.739     0.733   0.716   5.00e-06       609.2  
+  ~~~ depth-fusion deviation @epoch 8: total_L2=2.5184e+00  (depth_channel_adapt.conv1=6.214e-01, depth_channel_adapt.conv2=4.537e-01, depth_channel_adapt.gn=8.596e-02, depth_feat_norm_layer=6.245e-02, depth_fuse_l1=1.262e+00, depth_fuse_l2=1.622e+00, depth_fuse_src=1.229e+00, initial_depth_fuse=7.034e-02, initial_depth_fuse_norm=4.550e-02)
+  ~~~ conv-depth-adapter @epoch 8: eff_rank=3.5/8  |act|=4.745e-01  std=6.283e-01  dead=0.486  naninf=0
+     8    2195.832  5861.305           0.555         0.681     11.337    9.700     36.84    0.135    0.741     0.734   0.719   5.00e-06       613.6  
+  ~~~ depth-fusion deviation @epoch 9: total_L2=2.7018e+00  (depth_channel_adapt.conv1=6.863e-01, depth_channel_adapt.conv2=4.854e-01, depth_channel_adapt.gn=9.370e-02, depth_feat_norm_layer=6.878e-02, depth_fuse_l1=1.360e+00, depth_fuse_l2=1.726e+00, depth_fuse_src=1.320e+00, initial_depth_fuse=7.815e-02, initial_depth_fuse_norm=5.146e-02)
+  ~~~ conv-depth-adapter @epoch 9: eff_rank=3.6/8  |act|=4.720e-01  std=6.151e-01  dead=0.486  naninf=0
+     9    2153.326  5794.457           0.544         0.673     11.336    9.639     36.33    0.139    0.742     0.735   0.719   5.00e-06       611.4  
+  ~~~ depth-fusion deviation @epoch 10: total_L2=2.8819e+00  (depth_channel_adapt.conv1=7.454e-01, depth_channel_adapt.conv2=5.219e-01, depth_channel_adapt.gn=9.953e-02, depth_feat_norm_layer=7.491e-02, depth_fuse_l1=1.453e+00, depth_fuse_l2=1.846e+00, depth_fuse_src=1.390e+00, initial_depth_fuse=8.428e-02, initial_depth_fuse_norm=5.597e-02)
+  ~~~ conv-depth-adapter @epoch 10: eff_rank=3.5/8  |act|=4.701e-01  std=6.099e-01  dead=0.486  naninf=0
+    10    2160.277  5953.990           0.543         0.684     11.376    9.588     36.36    0.133    0.739     0.732   0.717   5.00e-06       602.6  
+  ~~~ depth-fusion deviation @epoch 11: total_L2=2.8744e+00  (depth_channel_adapt.conv1=7.548e-01, depth_channel_adapt.conv2=5.283e-01, depth_channel_adapt.gn=1.006e-01, depth_feat_norm_layer=7.535e-02, depth_fuse_l1=1.445e+00, depth_fuse_l2=1.837e+00, depth_fuse_src=1.387e+00, initial_depth_fuse=8.650e-02, initial_depth_fuse_norm=5.671e-02)
+  ~~~ conv-depth-adapter @epoch 11: eff_rank=3.6/8  |act|=4.694e-01  std=6.056e-01  dead=0.486  naninf=0
+  --- PLATEAU 1/10 at epoch 11: neither Val select (10.36, best 8.98) nor Val NAE (0.136, best 0.121) improved.
+    11    2202.591  6049.839           0.558         0.693     12.155   10.357     44.86    0.136    0.744     0.738   0.708   5.00e-06       622.0  
+  ~~~ depth-fusion deviation @epoch 12: total_L2=2.8637e+00  (depth_channel_adapt.conv1=7.654e-01, depth_channel_adapt.conv2=5.366e-01, depth_channel_adapt.gn=1.019e-01, depth_feat_norm_layer=7.576e-02, depth_fuse_l1=1.440e+00, depth_fuse_l2=1.819e+00, depth_fuse_src=1.384e+00, initial_depth_fuse=8.870e-02, initial_depth_fuse_norm=5.772e-02)
+  ~~~ conv-depth-adapter @epoch 12: eff_rank=3.7/8  |act|=4.682e-01  std=5.994e-01  dead=0.486  naninf=0
+  --- PLATEAU 2/10 at epoch 12: neither Val select (9.92, best 8.98) nor Val NAE (0.135, best 0.121) improved.
+    12    2209.102  5946.864           0.562         0.747     12.188    9.919     39.46    0.135    0.747     0.740   0.716   5.00e-06       621.5  
+  ~~~ depth-fusion deviation @epoch 13: total_L2=2.8645e+00  (depth_channel_adapt.conv1=7.827e-01, depth_channel_adapt.conv2=5.462e-01, depth_channel_adapt.gn=1.049e-01, depth_feat_norm_layer=7.688e-02, depth_fuse_l1=1.438e+00, depth_fuse_l2=1.814e+00, depth_fuse_src=1.382e+00, initial_depth_fuse=9.263e-02, initial_depth_fuse_norm=5.956e-02)
+  ~~~ conv-depth-adapter @epoch 13: eff_rank=3.6/8  |act|=4.669e-01  std=6.003e-01  dead=0.485  naninf=0
+  --- PLATEAU 3/10 at epoch 13: neither Val select (9.67, best 8.98) nor Val NAE (0.128, best 0.121) improved.
+    13    2263.333  6078.596           0.578         0.779     11.889    9.667     38.29    0.128    0.744     0.738   0.704   5.00e-06       617.3  
+  ~~~ depth-fusion deviation @epoch 14: total_L2=2.8593e+00  (depth_channel_adapt.conv1=8.119e-01, depth_channel_adapt.conv2=5.618e-01, depth_channel_adapt.gn=1.074e-01, depth_feat_norm_layer=7.931e-02, depth_fuse_l1=1.432e+00, depth_fuse_l2=1.792e+00, depth_fuse_src=1.382e+00, initial_depth_fuse=9.574e-02, initial_depth_fuse_norm=6.224e-02)
+  ~~~ conv-depth-adapter @epoch 14: eff_rank=3.5/8  |act|=4.626e-01  std=6.052e-01  dead=0.483  naninf=0
+  --- PLATEAU 4/10 at epoch 14: neither Val select (11.28, best 8.98) nor Val NAE (0.150, best 0.121) improved.
+    14    2263.235  5918.483           0.578         0.769     11.702   11.278     54.79    0.150    0.747     0.740   0.700   5.00e-06       626.0  
+  ~~~ depth-fusion deviation @epoch 15: total_L2=2.8796e+00  (depth_channel_adapt.conv1=8.325e-01, depth_channel_adapt.conv2=5.775e-01, depth_channel_adapt.gn=1.124e-01, depth_feat_norm_layer=8.199e-02, depth_fuse_l1=1.443e+00, depth_fuse_l2=1.796e+00, depth_fuse_src=1.387e+00, initial_depth_fuse=1.011e-01, initial_depth_fuse_norm=6.734e-02)
+  ~~~ conv-depth-adapter @epoch 15: eff_rank=3.6/8  |act|=4.637e-01  std=6.066e-01  dead=0.482  naninf=0
+  --- PLATEAU 5/10 at epoch 15: neither Val select (10.63, best 8.98) nor Val NAE (0.137, best 0.121) improved.
+    15    2268.936  5960.809           0.581         0.785     11.901   10.629     47.70    0.137    0.749     0.743   0.703   5.00e-06       623.7  
+  ~~~ depth-fusion deviation @epoch 16: total_L2=2.9281e+00  (depth_channel_adapt.conv1=8.665e-01, depth_channel_adapt.conv2=6.028e-01, depth_channel_adapt.gn=1.164e-01, depth_feat_norm_layer=8.500e-02, depth_fuse_l1=1.476e+00, depth_fuse_l2=1.806e+00, depth_fuse_src=1.408e+00, initial_depth_fuse=1.044e-01, initial_depth_fuse_norm=7.015e-02)
+  ~~~ conv-depth-adapter @epoch 16: eff_rank=3.7/8  |act|=4.737e-01  std=6.205e-01  dead=0.483  naninf=0
+  --- PLATEAU 6/10 at epoch 16: neither Val select (10.23, best 8.98) nor Val NAE (0.135, best 0.121) improved.
+    16    2325.428  5588.125           0.595         0.828     12.227   10.227     43.25    0.135    0.748     0.742   0.706   5.00e-06       625.0  
+  ~~~ depth-fusion deviation @epoch 17: total_L2=2.9750e+00  (depth_channel_adapt.conv1=9.031e-01, depth_channel_adapt.conv2=6.260e-01, depth_channel_adapt.gn=1.215e-01, depth_feat_norm_layer=8.941e-02, depth_fuse_l1=1.508e+00, depth_fuse_l2=1.819e+00, depth_fuse_src=1.422e+00, initial_depth_fuse=1.097e-01, initial_depth_fuse_norm=7.423e-02)
+  ~~~ conv-depth-adapter @epoch 17: eff_rank=3.3/8  |act|=4.763e-01  std=6.376e-01  dead=0.482  naninf=0
+  --- PLATEAU 7/10 at epoch 17: neither Val select (11.40, best 8.98) nor Val NAE (0.150, best 0.121) improved.
+    17    2696.630  6027.692           0.697         1.074     11.751   11.396     56.41    0.150    0.741     0.735   0.697   2.50e-06       610.6  
+  ~~~ depth-fusion deviation @epoch 18: total_L2=3.0109e+00  (depth_channel_adapt.conv1=9.186e-01, depth_channel_adapt.conv2=6.313e-01, depth_channel_adapt.gn=1.231e-01, depth_feat_norm_layer=8.935e-02, depth_fuse_l1=1.526e+00, depth_fuse_l2=1.842e+00, depth_fuse_src=1.436e+00, initial_depth_fuse=1.130e-01, initial_depth_fuse_norm=7.689e-02)
+  ~~~ conv-depth-adapter @epoch 18: eff_rank=3.3/8  |act|=4.770e-01  std=6.319e-01  dead=0.482  naninf=0
+  --- PLATEAU 8/10 at epoch 18: neither Val select (10.83, best 8.98) nor Val NAE (0.146, best 0.121) improved.
+    18    2902.284  5968.661           0.754         1.046     11.580   10.832     47.22    0.146    0.745     0.739   0.709   2.50e-06       623.3  
+  ~~~ depth-fusion deviation @epoch 19: total_L2=3.0345e+00  (depth_channel_adapt.conv1=9.300e-01, depth_channel_adapt.conv2=6.381e-01, depth_channel_adapt.gn=1.238e-01, depth_feat_norm_layer=9.029e-02, depth_fuse_l1=1.542e+00, depth_fuse_l2=1.853e+00, depth_fuse_src=1.444e+00, initial_depth_fuse=1.161e-01, initial_depth_fuse_norm=7.932e-02)
+  ~~~ conv-depth-adapter @epoch 19: eff_rank=3.5/8  |act|=4.709e-01  std=6.210e-01  dead=0.481  naninf=0
+  --- PLATEAU 9/10 at epoch 19: neither Val select (10.97, best 8.98) nor Val NAE (0.143, best 0.121) improved.
+    19    2763.421  6232.602           0.717         1.013     10.930   10.973     50.76    0.143    0.744     0.738   0.703   2.50e-06       613.9  
+  ~~~ depth-fusion deviation @epoch 20: total_L2=3.0676e+00  (depth_channel_adapt.conv1=9.447e-01, depth_channel_adapt.conv2=6.464e-01, depth_channel_adapt.gn=1.266e-01, depth_feat_norm_layer=9.071e-02, depth_fuse_l1=1.556e+00, depth_fuse_l2=1.874e+00, depth_fuse_src=1.456e+00, initial_depth_fuse=1.191e-01, initial_depth_fuse_norm=8.196e-02)
+  ~~~ conv-depth-adapter @epoch 20: eff_rank=3.6/8  |act|=4.664e-01  std=6.133e-01  dead=0.481  naninf=0
+  --- PLATEAU 10/10 at epoch 20: neither Val select (10.38, best 8.98) nor Val NAE (0.134, best 0.121) improved.
+    20    2746.322  5913.644           0.712         1.005     11.143   10.377     43.71    0.134    0.748     0.741   0.718   2.50e-06       624.6  
+
+Best model - epoch 6:
+  Train loss:      2196.630
+  Val loss:        6040.306
+  Train main loss: 0.552
+  Val main loss:   0.678
+  Train MAE:       11.806
+  Val MAE:         8.983
+  Val RMSE:        32.51
+  Val NAE:         0.121
+  Val IoU@.5:      0.7427
+  Val GIoU@.5:     0.7362
+  Val Precision@.5: 0.7195
+  Val Recall@.5:    0.7332
+  Val F1@.5:        0.7263
+  Epoch time:      661.4s
+
+Checkpoint saved at: /d/hpc/home/er52565/GECO2/results_FSCD147/17498070/GECO2_FSCD147_conv_hiera_pdm_pdf8gen_dinoInSize512_dconv_lcues_oinit_dfc8_dnorm_k1_idinit_hiresn_probe10_all_200.pth

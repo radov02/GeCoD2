@@ -1,0 +1,248 @@
+Model path: /d/hpc/home/er52565/GECO2/results_MCAC/17607575_sep_hiera/GECO2_MCAC_sep_hiera_pdmgen_dnorm_sfr_idinit_plg_dens_probeA_aw10_few_200.pth
+Created: 2026-07-18 19:39:23
+Wandb run: https://wandb.ai/radovicevic-erik1-/GECO2-D/runs/u5oz91hh
+
+ Epoch   TrainLoss   ValLoss   TrainMainLoss   ValMainLoss   TrainMAE   ValMAE   ValRMSE   ValNAE   ValIoU   ValGIoU   ValF1         LR   EpochTime  Best
+-------------------------------------------------------------------------------------------------------------------------
+  ~~~ depth-fusion deviation @epoch 1: total_L2=1.4222e-03  (depth_channel_adapt=4.756e-04, depth_feat_norm_layer=5.568e-04, depth_pyramid_gamma=1.219e-03)
+  ~~~ pyramid gamma @epoch 1: gamma_src=9.8894e-02, gamma_l1=9.9554e-02, gamma_l2=9.9747e-02
+  ::: PROBE epoch 1: val_select=20.074 best=20.074 stall=0/5
+     1   27054.930  73265.438           0.940         1.131     36.644   20.074     34.58    1.518    0.768     0.761   0.662   1.44e-06      1656.8  *
+  ~~~ depth-fusion deviation @epoch 2: total_L2=5.1379e-03  (depth_channel_adapt=1.718e-03, depth_feat_norm_layer=1.765e-03, depth_pyramid_gamma=4.509e-03)
+  ~~~ pyramid gamma @epoch 2: gamma_src=9.5986e-02, gamma_l1=9.8497e-02, gamma_l2=9.8600e-02
+  ::: PROBE epoch 2: val_select=20.025 best=20.025 stall=0/5
+     2   22921.807  73318.562           0.956         1.130     37.223   20.025     34.51    1.518    0.768     0.761   0.662   2.63e-06      1678.2  *
+  ~~~ depth-fusion deviation @epoch 3: total_L2=1.0268e-02  (depth_channel_adapt=3.148e-03, depth_feat_norm_layer=4.251e-03, depth_pyramid_gamma=8.800e-03)
+  ~~~ pyramid gamma @epoch 3: gamma_src=9.2454e-02, gamma_l1=9.6434e-02, gamma_l2=9.7208e-02
+  ::: PROBE epoch 3: val_select=19.959 best=19.959 stall=0/5
+     3   23171.156  73452.602           0.954         1.132     36.851   19.959     34.37    1.515    0.768     0.761   0.662   3.81e-06      1679.3  *
+  ~~~ depth-fusion deviation @epoch 4: total_L2=1.7112e-02  (depth_channel_adapt=5.098e-03, depth_feat_norm_layer=8.073e-03, depth_pyramid_gamma=1.420e-02)
+  ~~~ pyramid gamma @epoch 4: gamma_src=8.6720e-02, gamma_l1=9.6273e-02, gamma_l2=9.6623e-02
+  ::: PROBE epoch 4: val_select=19.882 best=19.882 stall=0/5
+     4   23074.504  73543.273           0.952         1.129     35.943   19.882     34.28    1.514    0.768     0.762   0.663   5.00e-06      1668.8  *
+  ~~~ depth-fusion deviation @epoch 5: total_L2=2.4574e-02  (depth_channel_adapt=6.679e-03, depth_feat_norm_layer=1.171e-02, depth_pyramid_gamma=2.055e-02)
+  ~~~ pyramid gamma @epoch 5: gamma_src=8.0233e-02, gamma_l1=9.5971e-02, gamma_l2=9.6107e-02
+  ::: PROBE epoch 5: val_select=19.809 best=19.809 stall=0/5
+     5   22651.043  73480.359           0.955         1.130     36.541   19.809     34.15    1.503    0.768     0.762   0.663   5.00e-06      1671.8  *
+  ~~~ depth-fusion deviation @epoch 6: total_L2=3.4296e-02  (depth_channel_adapt=9.092e-03, depth_feat_norm_layer=1.705e-02, depth_pyramid_gamma=2.834e-02)
+  ~~~ pyramid gamma @epoch 6: gamma_src=7.2538e-02, gamma_l1=9.5194e-02, gamma_l2=9.4934e-02
+  ::: PROBE epoch 6: val_select=19.732 best=19.732 stall=0/5
+     6   22494.338  73578.945           0.951         1.127     37.220   19.732     34.03    1.503    0.768     0.762   0.663   5.00e-06      1681.3  *
+  ~~~ depth-fusion deviation @epoch 7: total_L2=4.3902e-02  (depth_channel_adapt=1.278e-02, depth_feat_norm_layer=2.308e-02, depth_pyramid_gamma=3.509e-02)
+  ~~~ pyramid gamma @epoch 7: gamma_src=6.5984e-02, gamma_l1=9.3656e-02, gamma_l2=9.4155e-02
+  ::: PROBE epoch 7: val_select=19.645 best=19.645 stall=0/5
+     7   21677.781  73595.359           0.933         1.126     36.575   19.645     33.91    1.500    0.768     0.762   0.663   5.00e-06      1658.7  *
+  ~~~ depth-fusion deviation @epoch 8: total_L2=5.5771e-02  (depth_channel_adapt=1.809e-02, depth_feat_norm_layer=2.982e-02, depth_pyramid_gamma=4.352e-02)
+  ~~~ pyramid gamma @epoch 8: gamma_src=5.8219e-02, gamma_l1=9.0808e-02, gamma_l2=9.2014e-02
+  ::: PROBE epoch 8: val_select=19.553 best=19.553 stall=0/5
+     8   21776.154  73741.117           0.948         1.124     35.559   19.553     33.76    1.494    0.769     0.762   0.663   5.00e-06      1656.8  *
+  ~~~ depth-fusion deviation @epoch 9: total_L2=6.6143e-02  (depth_channel_adapt=2.287e-02, depth_feat_norm_layer=3.465e-02, depth_pyramid_gamma=5.149e-02)
+  ~~~ pyramid gamma @epoch 9: gamma_src=5.0364e-02, gamma_l1=8.8812e-02, gamma_l2=9.2123e-02
+  ::: PROBE epoch 9: val_select=19.515 best=19.515 stall=0/5
+     9   21510.711  73681.305           0.936         1.123     35.679   19.515     33.71    1.494    0.768     0.762   0.663   5.00e-06      1659.9  *
+  ~~~ depth-fusion deviation @epoch 10: total_L2=7.6717e-02  (depth_channel_adapt=2.714e-02, depth_feat_norm_layer=3.974e-02, depth_pyramid_gamma=5.975e-02)
+  ~~~ pyramid gamma @epoch 10: gamma_src=4.1944e-02, gamma_l1=8.8031e-02, gamma_l2=9.2497e-02
+  ::: PROBE epoch 10: val_select=19.429 best=19.429 stall=0/5
+    10   21611.064  73770.398           0.944         1.122     35.850   19.429     33.60    1.491    0.769     0.762   0.663   5.00e-06      1654.9  *
+  ~~~ depth-fusion deviation @epoch 11: total_L2=9.0865e-02  (depth_channel_adapt=3.489e-02, depth_feat_norm_layer=4.798e-02, depth_pyramid_gamma=6.883e-02)
+  ~~~ pyramid gamma @epoch 11: gamma_src=3.2894e-02, gamma_l1=8.5979e-02, gamma_l2=9.3905e-02
+  ::: PROBE epoch 11: val_select=19.366 best=19.366 stall=0/5
+    11   21668.857  73859.406           0.949         1.120     36.282   19.366     33.47    1.486    0.769     0.762   0.663   5.00e-06      1647.0  *
+  ~~~ depth-fusion deviation @epoch 12: total_L2=1.0092e-01  (depth_channel_adapt=4.066e-02, depth_feat_norm_layer=5.489e-02, depth_pyramid_gamma=7.429e-02)
+  ~~~ pyramid gamma @epoch 12: gamma_src=2.7940e-02, gamma_l1=8.3826e-02, gamma_l2=9.1934e-02
+  ::: PROBE epoch 12: val_select=19.326 best=19.326 stall=0/5
+    12   21442.633  73777.445           0.947         1.120     35.284   19.326     33.42    1.488    0.769     0.762   0.663   5.00e-06      1659.4  *
+  ~~~ depth-fusion deviation @epoch 13: total_L2=1.1057e-01  (depth_channel_adapt=4.718e-02, depth_feat_norm_layer=6.218e-02, depth_pyramid_gamma=7.832e-02)
+  ~~~ pyramid gamma @epoch 13: gamma_src=2.4033e-02, gamma_l1=8.2726e-02, gamma_l2=9.1986e-02
+  ::: PROBE epoch 13: val_select=19.289 best=19.289 stall=0/5
+    13   21189.527  73992.688           0.952         1.120     34.339   19.289     33.32    1.488    0.769     0.762   0.663   5.00e-06      1663.1  *
+  ~~~ depth-fusion deviation @epoch 14: total_L2=1.1760e-01  (depth_channel_adapt=5.146e-02, depth_feat_norm_layer=6.700e-02, depth_pyramid_gamma=8.181e-02)
+  ~~~ pyramid gamma @epoch 14: gamma_src=2.0330e-02, gamma_l1=8.2621e-02, gamma_l2=9.3441e-02
+  ::: PROBE epoch 14: val_select=19.272 best=19.272 stall=0/5
+    14   21027.102  74020.828           0.935         1.116     35.491   19.272     33.27    1.485    0.769     0.762   0.662   5.00e-06      1670.1  *
+  ~~~ depth-fusion deviation @epoch 15: total_L2=1.2323e-01  (depth_channel_adapt=5.475e-02, depth_feat_norm_layer=7.136e-02, depth_pyramid_gamma=8.423e-02)
+  ~~~ pyramid gamma @epoch 15: gamma_src=1.7894e-02, gamma_l1=8.1571e-02, gamma_l2=9.6208e-02
+  ::: PROBE epoch 15: val_select=19.252 best=19.252 stall=0/5
+    15   21274.270  74038.875           0.945         1.120     35.635   19.252     33.27    1.485    0.769     0.762   0.662   5.00e-06      1663.1  *
+  ~~~ depth-fusion deviation @epoch 16: total_L2=1.3066e-01  (depth_channel_adapt=5.851e-02, depth_feat_norm_layer=7.616e-02, depth_pyramid_gamma=8.858e-02)
+  ~~~ pyramid gamma @epoch 16: gamma_src=1.3887e-02, gamma_l1=7.9404e-02, gamma_l2=9.7288e-02
+  ::: PROBE epoch 16: val_select=19.210 best=19.210 stall=0/5
+    16   21047.451  73929.289           0.951         1.118     35.872   19.210     33.19    1.482    0.768     0.762   0.662   5.00e-06      1656.9  *
+  ~~~ depth-fusion deviation @epoch 17: total_L2=1.3639e-01  (depth_channel_adapt=6.049e-02, depth_feat_norm_layer=7.945e-02, depth_pyramid_gamma=9.290e-02)
+  ~~~ pyramid gamma @epoch 17: gamma_src=1.0091e-02, gamma_l1=7.6786e-02, gamma_l2=9.7211e-02
+  ::: PROBE epoch 17: val_select=19.183 best=19.183 stall=0/5
+    17   20059.529  73813.422           0.925         1.116     34.387   19.183     33.13    1.483    0.769     0.762   0.662   5.00e-06      1657.7  *
+  ~~~ depth-fusion deviation @epoch 18: total_L2=1.3915e-01  (depth_channel_adapt=6.248e-02, depth_feat_norm_layer=8.107e-02, depth_pyramid_gamma=9.427e-02)
+  ~~~ pyramid gamma @epoch 18: gamma_src=8.9804e-03, gamma_l1=7.5557e-02, gamma_l2=9.7653e-02
+  ::: PROBE epoch 18: val_select=19.153 best=19.153 stall=0/5
+    18   20448.912  73976.055           0.932         1.119     35.715   19.153     33.12    1.485    0.768     0.762   0.662   5.00e-06      1648.6  *
+  ~~~ depth-fusion deviation @epoch 19: total_L2=1.4281e-01  (depth_channel_adapt=6.428e-02, depth_feat_norm_layer=8.471e-02, depth_pyramid_gamma=9.532e-02)
+  ~~~ pyramid gamma @epoch 19: gamma_src=8.4064e-03, gamma_l1=7.3623e-02, gamma_l2=1.0054e-01
+  ::: PROBE epoch 19: val_select=19.163 best=19.153 stall=1/5
+    19   19815.127  73978.172           0.927         1.119     35.156   19.163     33.11    1.481    0.769     0.762   0.662   5.00e-06      1656.1  
+  ~~~ depth-fusion deviation @epoch 20: total_L2=1.4901e-01  (depth_channel_adapt=6.746e-02, depth_feat_norm_layer=8.939e-02, depth_pyramid_gamma=9.831e-02)
+  ~~~ pyramid gamma @epoch 20: gamma_src=5.9296e-03, gamma_l1=7.1516e-02, gamma_l2=1.0184e-01
+  ::: PROBE epoch 20: val_select=19.142 best=19.142 stall=0/5
+    20   20065.510  73900.766           0.937         1.118     35.656   19.142     33.09    1.478    0.768     0.762   0.662   5.00e-06      1644.4  *
+  ~~~ depth-fusion deviation @epoch 21: total_L2=1.5410e-01  (depth_channel_adapt=6.905e-02, depth_feat_norm_layer=9.449e-02, depth_pyramid_gamma=1.003e-01)
+  ~~~ pyramid gamma @epoch 21: gamma_src=4.3592e-03, gamma_l1=7.0115e-02, gamma_l2=1.0318e-01
+  ::: PROBE epoch 21: val_select=19.140 best=19.140 stall=0/5
+    21   20469.535  73694.570           0.946         1.118     35.414   19.140     33.07    1.478    0.768     0.762   0.662   5.00e-06      1649.2  *
+  ~~~ depth-fusion deviation @epoch 22: total_L2=1.6022e-01  (depth_channel_adapt=7.123e-02, depth_feat_norm_layer=9.993e-02, depth_pyramid_gamma=1.030e-01)
+  ~~~ pyramid gamma @epoch 22: gamma_src=2.2745e-03, gamma_l1=6.7551e-02, gamma_l2=1.0257e-01
+  ::: PROBE epoch 22: val_select=19.102 best=19.102 stall=0/5
+    22   20476.312  73562.266           0.951         1.117     34.965   19.102     33.03    1.478    0.768     0.762   0.662   5.00e-06      1649.9  *
+  ~~~ depth-fusion deviation @epoch 23: total_L2=1.6557e-01  (depth_channel_adapt=7.388e-02, depth_feat_norm_layer=1.040e-01, depth_pyramid_gamma=1.055e-01)
+  ~~~ pyramid gamma @epoch 23: gamma_src=-3.5218e-04, gamma_l1=6.7686e-02, gamma_l2=1.0415e-01
+  ::: PROBE epoch 23: val_select=19.077 best=19.077 stall=0/5
+    23   19914.945  73461.398           0.932         1.116     34.232   19.077     32.98    1.477    0.769     0.762   0.662   5.00e-06      1658.4  *
+  ~~~ depth-fusion deviation @epoch 24: total_L2=1.7209e-01  (depth_channel_adapt=7.824e-02, depth_feat_norm_layer=1.097e-01, depth_pyramid_gamma=1.070e-01)
+  ~~~ pyramid gamma @epoch 24: gamma_src=-1.2541e-03, gamma_l1=6.5347e-02, gamma_l2=1.0166e-01
+  ::: PROBE epoch 24: val_select=19.067 best=19.067 stall=0/5
+    24   20247.199  73214.555           0.949         1.118     33.618   19.067     32.98    1.478    0.769     0.762   0.662   5.00e-06      1658.3  *
+  ~~~ depth-fusion deviation @epoch 25: total_L2=1.7339e-01  (depth_channel_adapt=7.751e-02, depth_feat_norm_layer=1.131e-01, depth_pyramid_gamma=1.061e-01)
+  ~~~ pyramid gamma @epoch 25: gamma_src=-3.0252e-04, gamma_l1=6.5559e-02, gamma_l2=1.0256e-01
+  ::: PROBE epoch 25: val_select=19.053 best=19.053 stall=0/5
+    25   19698.127  73242.422           0.923         1.117     35.257   19.053     32.95    1.478    0.769     0.762   0.662   5.00e-06      1652.3  *
+  ~~~ depth-fusion deviation @epoch 26: total_L2=1.7798e-01  (depth_channel_adapt=8.083e-02, depth_feat_norm_layer=1.174e-01, depth_pyramid_gamma=1.066e-01)
+  ~~~ pyramid gamma @epoch 26: gamma_src=-9.6085e-05, gamma_l1=6.3520e-02, gamma_l2=1.0309e-01
+  ::: PROBE epoch 26: val_select=19.058 best=19.053 stall=1/5
+    26   20173.807  73252.180           0.945         1.115     35.002   19.058     32.97    1.477    0.768     0.762   0.662   5.00e-06      1651.6  
+  ~~~ depth-fusion deviation @epoch 27: total_L2=1.8377e-01  (depth_channel_adapt=8.254e-02, depth_feat_norm_layer=1.240e-01, depth_pyramid_gamma=1.077e-01)
+  ~~~ pyramid gamma @epoch 27: gamma_src=-1.2749e-03, gamma_l1=6.3578e-02, gamma_l2=1.0241e-01
+  ::: PROBE epoch 27: val_select=19.049 best=19.049 stall=0/5
+    27   19909.719  73189.727           0.944         1.115     34.861   19.049     32.95    1.476    0.769     0.762   0.662   5.00e-06      1659.2  *
+  ~~~ depth-fusion deviation @epoch 28: total_L2=1.8685e-01  (depth_channel_adapt=8.383e-02, depth_feat_norm_layer=1.285e-01, depth_pyramid_gamma=1.066e-01)
+  ~~~ pyramid gamma @epoch 28: gamma_src=-5.2788e-04, gamma_l1=6.4736e-02, gamma_l2=1.0445e-01
+  ::: PROBE epoch 28: val_select=19.045 best=19.045 stall=0/5
+    28   20189.109  73372.922           0.952         1.116     34.685   19.045     32.92    1.473    0.768     0.762   0.662   5.00e-06      1648.3  *
+  ~~~ depth-fusion deviation @epoch 29: total_L2=1.9314e-01  (depth_channel_adapt=8.673e-02, depth_feat_norm_layer=1.351e-01, depth_pyramid_gamma=1.073e-01)
+  ~~~ pyramid gamma @epoch 29: gamma_src=-1.0852e-03, gamma_l1=6.4460e-02, gamma_l2=1.0636e-01
+  ::: PROBE epoch 29: val_select=19.043 best=19.043 stall=0/5
+    29   20089.898  73522.109           0.945         1.114     35.927   19.043     32.91    1.475    0.768     0.762   0.662   5.00e-06      1652.6  *
+  ~~~ depth-fusion deviation @epoch 30: total_L2=1.9639e-01  (depth_channel_adapt=8.734e-02, depth_feat_norm_layer=1.388e-01, depth_pyramid_gamma=1.080e-01)
+  ~~~ pyramid gamma @epoch 30: gamma_src=-1.1971e-03, gamma_l1=6.2863e-02, gamma_l2=1.0702e-01
+  ::: PROBE epoch 30: val_select=19.042 best=19.042 stall=0/5
+    30   20034.389  73414.047           0.945         1.117     34.145   19.042     32.93    1.475    0.769     0.762   0.662   5.00e-06      1644.9  *
+  ~~~ depth-fusion deviation @epoch 31: total_L2=2.0220e-01  (depth_channel_adapt=9.059e-02, depth_feat_norm_layer=1.444e-01, depth_pyramid_gamma=1.087e-01)
+  ~~~ pyramid gamma @epoch 31: gamma_src=-1.8899e-03, gamma_l1=6.2615e-02, gamma_l2=1.0651e-01
+  ::: PROBE epoch 31: val_select=19.037 best=19.037 stall=0/5
+    31   19488.012  73297.875           0.932         1.115     34.610   19.037     32.92    1.474    0.769     0.762   0.662   5.00e-06      1649.8  *
+  ~~~ depth-fusion deviation @epoch 32: total_L2=2.0618e-01  (depth_channel_adapt=9.326e-02, depth_feat_norm_layer=1.481e-01, depth_pyramid_gamma=1.089e-01)
+  ~~~ pyramid gamma @epoch 32: gamma_src=-2.3270e-03, gamma_l1=6.3442e-02, gamma_l2=1.0785e-01
+  ::: PROBE epoch 32: val_select=19.052 best=19.037 stall=1/5
+    32   19715.041  73247.352           0.932         1.116     35.718   19.052     32.95    1.476    0.769     0.762   0.662   5.00e-06      1657.1  
+  ~~~ depth-fusion deviation @epoch 33: total_L2=2.1072e-01  (depth_channel_adapt=9.231e-02, depth_feat_norm_layer=1.532e-01, depth_pyramid_gamma=1.114e-01)
+  ~~~ pyramid gamma @epoch 33: gamma_src=-4.3149e-03, gamma_l1=6.1865e-02, gamma_l2=1.0878e-01
+  ::: PROBE epoch 33: val_select=19.019 best=19.019 stall=0/5
+    33   19883.125  73325.539           0.932         1.115     36.703   19.019     32.88    1.474    0.768     0.762   0.662   5.00e-06      1658.0  *
+  ~~~ depth-fusion deviation @epoch 34: total_L2=2.1378e-01  (depth_channel_adapt=9.315e-02, depth_feat_norm_layer=1.569e-01, depth_pyramid_gamma=1.114e-01)
+  ~~~ pyramid gamma @epoch 34: gamma_src=-4.5093e-03, gamma_l1=6.2648e-02, gamma_l2=1.0905e-01
+  ::: PROBE epoch 34: val_select=19.028 best=19.019 stall=1/5
+    34   19759.527  73398.445           0.934         1.116     36.046   19.028     32.89    1.474    0.768     0.762   0.662   5.00e-06      1666.2  
+  ~~~ depth-fusion deviation @epoch 35: total_L2=2.1986e-01  (depth_channel_adapt=9.705e-02, depth_feat_norm_layer=1.628e-01, depth_pyramid_gamma=1.114e-01)
+  ~~~ pyramid gamma @epoch 35: gamma_src=-4.1696e-03, gamma_l1=6.2399e-02, gamma_l2=1.1193e-01
+  ::: PROBE epoch 35: val_select=19.002 best=19.002 stall=0/5
+    35   19504.348  73382.000           0.931         1.115     34.867   19.002     32.86    1.474    0.768     0.762   0.662   5.00e-06      1649.2  *
+  ~~~ depth-fusion deviation @epoch 36: total_L2=2.2376e-01  (depth_channel_adapt=9.966e-02, depth_feat_norm_layer=1.658e-01, depth_pyramid_gamma=1.125e-01)
+  ~~~ pyramid gamma @epoch 36: gamma_src=-5.1892e-03, gamma_l1=6.1938e-02, gamma_l2=1.1180e-01
+  ::: PROBE epoch 36: val_select=19.016 best=19.002 stall=1/5
+    36   20057.738  73400.930           0.948         1.115     34.686   19.016     32.89    1.475    0.768     0.762   0.662   5.00e-06      1634.4  
+  ~~~ depth-fusion deviation @epoch 37: total_L2=2.2698e-01  (depth_channel_adapt=9.933e-02, depth_feat_norm_layer=1.714e-01, depth_pyramid_gamma=1.108e-01)
+  ~~~ pyramid gamma @epoch 37: gamma_src=-3.4893e-03, gamma_l1=6.2398e-02, gamma_l2=1.1238e-01
+  ::: PROBE epoch 37: val_select=19.010 best=19.002 stall=2/5  -> CUT depth-fusion LR
+    37   19867.877  73426.961           0.941         1.116     34.561   19.010     32.88    1.473    0.768     0.762   0.662   5.00e-06      1636.5  
+  ~~~ depth-fusion deviation @epoch 38: total_L2=2.2947e-01  (depth_channel_adapt=1.008e-01, depth_feat_norm_layer=1.736e-01, depth_pyramid_gamma=1.111e-01)
+  ~~~ pyramid gamma @epoch 38: gamma_src=-3.7026e-03, gamma_l1=6.2235e-02, gamma_l2=1.1313e-01
+  ::: PROBE epoch 38: val_select=19.024 best=19.002 stall=3/5
+    38   19439.414  73492.008           0.930         1.116     34.672   19.024     32.88    1.474    0.768     0.762   0.662   5.00e-06      1636.5  
+  ~~~ depth-fusion deviation @epoch 39: total_L2=2.3224e-01  (depth_channel_adapt=1.022e-01, depth_feat_norm_layer=1.764e-01, depth_pyramid_gamma=1.113e-01)
+  ~~~ pyramid gamma @epoch 39: gamma_src=-3.3120e-03, gamma_l1=6.1064e-02, gamma_l2=1.1408e-01
+  ::: PROBE epoch 39: val_select=19.013 best=19.002 stall=4/5  -> CUT depth-fusion LR
+    39   19696.244  73420.688           0.934         1.113     35.336   19.013     32.90    1.476    0.768     0.762   0.662   5.00e-06      1666.7  
+  ~~~ depth-fusion deviation @epoch 40: total_L2=2.3347e-01  (depth_channel_adapt=1.020e-01, depth_feat_norm_layer=1.779e-01, depth_pyramid_gamma=1.116e-01)
+  ~~~ pyramid gamma @epoch 40: gamma_src=-3.4345e-03, gamma_l1=6.0773e-02, gamma_l2=1.1483e-01
+  ::: PROBE epoch 40: val_select=19.018 best=19.002 stall=5/5  -> END PROBE (body unfreezes next epoch)
+    40   19636.748  73405.125           0.926         1.117     34.820   19.018     32.86    1.474    0.769     0.762   0.662   5.00e-06      1662.8  
+  ~~~ depth-fusion deviation @epoch 41: total_L2=2.3380e-01  (depth_channel_adapt=1.022e-01, depth_feat_norm_layer=1.783e-01, depth_pyramid_gamma=1.115e-01)
+  ~~~ pyramid gamma @epoch 41: gamma_src=-3.2340e-03, gamma_l1=6.0670e-02, gamma_l2=1.1526e-01
+    41   18904.205  56107.480           0.920         1.049     29.840   15.830     28.03    1.112    0.772     0.766   0.691   5.00e-06      1670.2  *
+  ~~~ depth-fusion deviation @epoch 42: total_L2=2.3411e-01  (depth_channel_adapt=1.025e-01, depth_feat_norm_layer=1.786e-01, depth_pyramid_gamma=1.113e-01)
+  ~~~ pyramid gamma @epoch 42: gamma_src=-3.0227e-03, gamma_l1=6.0774e-02, gamma_l2=1.1539e-01
+    42   18537.744  50151.758           0.937         1.047     28.651   15.141     27.51    1.116    0.775     0.768   0.699   5.00e-06      1665.0  *
+  ~~~ depth-fusion deviation @epoch 43: total_L2=2.3517e-01  (depth_channel_adapt=1.035e-01, depth_feat_norm_layer=1.795e-01, depth_pyramid_gamma=1.113e-01)
+  ~~~ pyramid gamma @epoch 43: gamma_src=-2.9541e-03, gamma_l1=6.1061e-02, gamma_l2=1.1629e-01
+    43   18057.492  44425.395           0.949         1.050     28.729   14.900     26.85    1.052    0.774     0.768   0.698   5.00e-06      1685.4  *
+  ~~~ depth-fusion deviation @epoch 44: total_L2=2.3525e-01  (depth_channel_adapt=1.038e-01, depth_feat_norm_layer=1.798e-01, depth_pyramid_gamma=1.106e-01)
+  ~~~ pyramid gamma @epoch 44: gamma_src=-2.1975e-03, gamma_l1=6.1515e-02, gamma_l2=1.1741e-01
+  --- PLATEAU 1/12 at epoch 44: neither Val select (15.61, best 14.90) nor Val NAE (1.074, best 1.052) improved.
+    44   18056.740  42078.219           0.965         1.065     26.439   15.611     28.15    1.074    0.774     0.767   0.696   5.00e-06      1666.1  
+  ~~~ depth-fusion deviation @epoch 45: total_L2=2.3575e-01  (depth_channel_adapt=1.040e-01, depth_feat_norm_layer=1.804e-01, depth_pyramid_gamma=1.105e-01)
+  ~~~ pyramid gamma @epoch 45: gamma_src=-2.1013e-03, gamma_l1=6.1968e-02, gamma_l2=1.1865e-01
+    45   18329.121  41087.734           0.997         1.081     26.685   15.216     27.19    1.028    0.773     0.767   0.701   5.00e-06      1676.0  
+  ~~~ depth-fusion deviation @epoch 46: total_L2=2.3603e-01  (depth_channel_adapt=1.040e-01, depth_feat_norm_layer=1.809e-01, depth_pyramid_gamma=1.103e-01)
+  ~~~ pyramid gamma @epoch 46: gamma_src=-1.7564e-03, gamma_l1=6.2137e-02, gamma_l2=1.1968e-01
+  --- PLATEAU 1/12 at epoch 46: neither Val select (17.72, best 14.90) nor Val NAE (1.183, best 1.028) improved.
+    46   18135.533  42408.793           1.002         1.107     27.712   17.719     31.72    1.183    0.770     0.763   0.689   5.00e-06      1672.9  
+  ~~~ depth-fusion deviation @epoch 47: total_L2=2.3669e-01  (depth_channel_adapt=1.044e-01, depth_feat_norm_layer=1.814e-01, depth_pyramid_gamma=1.105e-01)
+  ~~~ pyramid gamma @epoch 47: gamma_src=-1.6030e-03, gamma_l1=6.2218e-02, gamma_l2=1.2134e-01
+  --- PLATEAU 2/12 at epoch 47: neither Val select (19.19, best 14.90) nor Val NAE (1.304, best 1.028) improved.
+    47   18256.176  42674.051           1.021         1.124     27.768   19.190     34.15    1.304    0.768     0.762   0.683   2.50e-06      1674.3  
+  ~~~ depth-fusion deviation @epoch 48: total_L2=2.3690e-01  (depth_channel_adapt=1.046e-01, depth_feat_norm_layer=1.816e-01, depth_pyramid_gamma=1.104e-01)
+  ~~~ pyramid gamma @epoch 48: gamma_src=-1.3653e-03, gamma_l1=6.2254e-02, gamma_l2=1.2202e-01
+  --- PLATEAU 3/12 at epoch 48: neither Val select (17.81, best 14.90) nor Val NAE (1.216, best 1.028) improved.
+    48   17359.217  44169.277           1.016         1.108     27.781   17.813     32.06    1.216    0.769     0.762   0.690   2.50e-06      1666.0  
+  ~~~ depth-fusion deviation @epoch 49: total_L2=2.3726e-01  (depth_channel_adapt=1.049e-01, depth_feat_norm_layer=1.818e-01, depth_pyramid_gamma=1.106e-01)
+  ~~~ pyramid gamma @epoch 49: gamma_src=-1.4909e-03, gamma_l1=6.2306e-02, gamma_l2=1.2282e-01
+  --- PLATEAU 4/12 at epoch 49: neither Val select (17.89, best 14.90) nor Val NAE (1.218, best 1.028) improved.
+    49   17302.604  46088.906           1.015         1.109     26.880   17.892     31.89    1.218    0.769     0.763   0.690   2.50e-06      1676.7  
+  ~~~ depth-fusion deviation @epoch 50: total_L2=2.3734e-01  (depth_channel_adapt=1.049e-01, depth_feat_norm_layer=1.819e-01, depth_pyramid_gamma=1.105e-01)
+  ~~~ pyramid gamma @epoch 50: gamma_src=-1.2014e-03, gamma_l1=6.2177e-02, gamma_l2=1.2341e-01
+  --- PLATEAU 5/12 at epoch 50: neither Val select (18.03, best 14.90) nor Val NAE (1.261, best 1.028) improved.
+    50   17925.248  47901.949           1.023         1.110     28.406   18.033     32.31    1.261    0.769     0.762   0.689   2.50e-06      1689.7  
+  ~~~ depth-fusion deviation @epoch 51: total_L2=2.3755e-01  (depth_channel_adapt=1.052e-01, depth_feat_norm_layer=1.822e-01, depth_pyramid_gamma=1.103e-01)
+  ~~~ pyramid gamma @epoch 51: gamma_src=-8.6254e-04, gamma_l1=6.2370e-02, gamma_l2=1.2386e-01
+  --- PLATEAU 6/12 at epoch 51: neither Val select (18.07, best 14.90) nor Val NAE (1.244, best 1.028) improved.
+    51   17484.025  48887.254           1.025         1.107     26.988   18.073     32.40    1.244    0.770     0.763   0.690   1.25e-06      1653.1  
+  ~~~ depth-fusion deviation @epoch 52: total_L2=2.3755e-01  (depth_channel_adapt=1.053e-01, depth_feat_norm_layer=1.823e-01, depth_pyramid_gamma=1.102e-01)
+  ~~~ pyramid gamma @epoch 52: gamma_src=-6.9704e-04, gamma_l1=6.2440e-02, gamma_l2=1.2416e-01
+  --- PLATEAU 7/12 at epoch 52: neither Val select (17.93, best 14.90) nor Val NAE (1.235, best 1.028) improved.
+    52   17228.113  47994.125           1.021         1.106     27.832   17.925     32.00    1.235    0.769     0.762   0.690   1.25e-06      1677.8  
+  ~~~ depth-fusion deviation @epoch 53: total_L2=2.3783e-01  (depth_channel_adapt=1.055e-01, depth_feat_norm_layer=1.825e-01, depth_pyramid_gamma=1.101e-01)
+  ~~~ pyramid gamma @epoch 53: gamma_src=-6.1752e-04, gamma_l1=6.2555e-02, gamma_l2=1.2448e-01
+  --- PLATEAU 8/12 at epoch 53: neither Val select (17.82, best 14.90) nor Val NAE (1.211, best 1.028) improved.
+    53   16817.770  47383.594           1.012         1.110     27.068   17.816     31.73    1.211    0.769     0.762   0.689   1.25e-06      1683.9  
+  ~~~ depth-fusion deviation @epoch 54: total_L2=2.3778e-01  (depth_channel_adapt=1.055e-01, depth_feat_norm_layer=1.825e-01, depth_pyramid_gamma=1.100e-01)
+  ~~~ pyramid gamma @epoch 54: gamma_src=-4.6231e-04, gamma_l1=6.2560e-02, gamma_l2=1.2452e-01
+  --- PLATEAU 9/12 at epoch 54: neither Val select (18.88, best 14.90) nor Val NAE (1.294, best 1.028) improved.
+    54   17420.715  46847.324           1.019         1.116     28.190   18.876     33.55    1.294    0.768     0.761   0.685   1.25e-06      1681.1  
+  ~~~ depth-fusion deviation @epoch 55: total_L2=2.3779e-01  (depth_channel_adapt=1.056e-01, depth_feat_norm_layer=1.825e-01, depth_pyramid_gamma=1.098e-01)
+  ~~~ pyramid gamma @epoch 55: gamma_src=-2.2927e-04, gamma_l1=6.2657e-02, gamma_l2=1.2495e-01
+  --- PLATEAU 10/12 at epoch 55: neither Val select (18.63, best 14.90) nor Val NAE (1.275, best 1.028) improved.
+    55   17135.807  47686.977           1.018         1.112     26.813   18.629     33.12    1.275    0.769     0.762   0.688   6.25e-07      1658.9  
+  ~~~ depth-fusion deviation @epoch 56: total_L2=2.3794e-01  (depth_channel_adapt=1.057e-01, depth_feat_norm_layer=1.827e-01, depth_pyramid_gamma=1.098e-01)
+  ~~~ pyramid gamma @epoch 56: gamma_src=-2.0809e-04, gamma_l1=6.2698e-02, gamma_l2=1.2512e-01
+  --- PLATEAU 11/12 at epoch 56: neither Val select (18.56, best 14.90) nor Val NAE (1.258, best 1.028) improved.
+    56   16835.340  47512.840           1.014         1.110     27.616   18.558     33.05    1.258    0.769     0.762   0.688   6.25e-07      1700.7  
+  ~~~ depth-fusion deviation @epoch 57: total_L2=2.3795e-01  (depth_channel_adapt=1.057e-01, depth_feat_norm_layer=1.827e-01, depth_pyramid_gamma=1.098e-01)
+  ~~~ pyramid gamma @epoch 57: gamma_src=-1.7292e-04, gamma_l1=6.2725e-02, gamma_l2=1.2531e-01
+  --- PLATEAU 12/12 at epoch 57: neither Val select (18.61, best 14.90) nor Val NAE (1.264, best 1.028) improved.
+    57   17023.260  47425.180           1.017         1.113     27.563   18.610     33.18    1.264    0.768     0.761   0.687   6.25e-07      1667.8  
+
+Best model - epoch 43:
+  Train loss:      18057.492
+  Val loss:        44425.395
+  Train main loss: 0.949
+  Val main loss:   1.050
+  Train MAE:       28.729
+  Val MAE:         14.900
+  Val RMSE:        26.85
+  Val NAE:         1.052
+  Val IoU@.5:      0.7739
+  Val GIoU@.5:     0.7675
+  Val Precision@.5: 0.6330
+  Val Recall@.5:    0.7790
+  Val F1@.5:        0.6985
+  Epoch time:      1685.4s
+
+Checkpoint saved at: /d/hpc/home/er52565/GECO2/results_MCAC/17607575_sep_hiera/GECO2_MCAC_sep_hiera_pdmgen_dnorm_sfr_idinit_plg_dens_probeA_aw10_few_200.pth
