@@ -1,4 +1,4 @@
-# GeCoD2 - Feww-Shot Object Counting with Depth Information
+# GeCoD2 - Few-Shot Object Counting with Depth Information
 
 This repository contains the code accompanying the diploma thesis *A neural network for
 object counting in color images using depth information* (Faculty of Computer and
